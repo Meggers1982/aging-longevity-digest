@@ -16,7 +16,7 @@ from pathlib import Path
 RESEND_KEY    = os.environ.get("RESEND_API_KEY", "")
 FROM_EMAIL    = os.environ.get("FROM_EMAIL", "onboarding@resend.dev")
 RECIPIENT     = os.environ.get("RECIPIENT_EMAIL", "meagan.lea.morris@gmail.com")
-DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://meggers1982.github.io/new-scientist-story-ideas/")
+DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "")
 
 ARTIFACTS_DIR = Path("/tmp/artifacts")
 OUTPUT_PATH   = Path("data/results.json")
@@ -93,11 +93,11 @@ def send_summary_email(new_count: int, total: int, timestamp: str):
         return
 
     run_date = datetime.now().strftime("%b %d, %Y")
-    subject  = f"Research digest ready — {new_count} new {'study' if new_count == 1 else 'studies'} · {run_date}"
+    subject  = f"Aging & Longevity Research Digest — {run_date} | {new_count} {'Study' if new_count == 1 else 'Studies'}"
     html = f"""<!DOCTYPE html>
 <html>
 <body style="font-family:Georgia,serif;max-width:500px;margin:auto;padding:24px;color:#222;">
-<h2 style="color:#1a1a2e;">Mental Health Research Digest</h2>
+<h2 style="color:#1a3a2e;">Aging &amp; Longevity Research Digest</h2>
 <p>Today's digest is ready. <strong>{new_count} new {'study' if new_count == 1 else 'studies'}</strong> added
 across all categories ({total} total in dashboard).</p>
 <p>
@@ -106,7 +106,7 @@ across all categories ({total} total in dashboard).</p>
   View Dashboard →</a>
 </p>
 <p style="font-size:0.85em;color:#888;margin-top:2em;">
-  Mental Health &amp; Brain Science Research Digest · PubMed + Claude + SERPAPI
+  Aging &amp; Longevity Research Digest · PubMed + Claude + SERPAPI
 </p>
 </body>
 </html>"""

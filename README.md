@@ -1,30 +1,27 @@
-# Mental Health & Brain Science Research Digest
+# Aging & Longevity Research Digest
 
-A GitHub Actions workflow that searches a curated list of mental health and brain science journals on PubMed, filters out widely covered stories, runs two Claude passes (writer + fact-checker/editor), and publishes results to a GitHub Pages dashboard — **https://meggers1982.github.io/new-scientist-story-ideas/**
+A GitHub Actions workflow that searches a curated list of aging, longevity, nutrition, cardiovascular, and metabolic health journals on PubMed, filters out widely covered stories, runs a single Claude pass (writer + fact-checker + pitch generator), and publishes results to a GitHub Pages dashboard.
 
 ---
 
 ## How it works
 
 1. **PubMed search** — Queries journals by ISSN for studies published in the past 7 days
-2. **Title screening** — Prioritises studies with signals of novelty (first-in-class, counterintuitive, overturns prior research). Excludes animal-only studies.
+2. **Title screening** — Prioritises studies with novelty signals (first-in-class, counterintuitive, overturns prior research). Excludes animal-only studies.
 3. **SERPAPI media filter** — Checks Google News and skips any study with 3+ news results
 4. **Abstract fetch** — Retrieves full abstracts for shortlisted studies
-5. **Claude pass 1 (writer)** — Writes structured JSON entries: headline, summary, why it matters, caveats
-6. **Claude pass 2 (editor/fact-checker)** — Verifies each entry against the abstract, corrects errors, adds a New Scientist Mind pitch angle
-7. **Artifact upload** — Saves JSON results as a GitHub Actions artifact
-8. **Deploy job** — Downloads all 13 job artifacts, merges and deduplicates by PMID, commits `data/results.json`, serves via GitHub Pages
-9. **Email notification** — Short email with study count and link to dashboard
+5. **Claude pass (writer + fact-checker + pitcher)** — Writes structured JSON: headline, summary, why it matters, caveats, relevance score, and pitch angles per publication type
+6. **Artifact upload** — Saves JSON results as a GitHub Actions artifact
+7. **Deploy job** — Downloads all job artifacts, merges and deduplicates by PMID, commits `data/results.json`, serves via GitHub Pages
+8. **Email notification** — Short email with study count and link to dashboard
 
 ---
 
 ## Dashboard
 
-**URL:** https://meggers1982.github.io/new-scientist-story-ideas/
-
 Features:
 - Card view per study with headline, summary, caveats, fact-check notes
-- Expandable New Scientist Mind pitch section per study
+- Expandable pitch angles section (one block per publication type — AARP, Prevention, Next Avenue, Eating Well, etc.)
 - Filter by category, groundbreaking type, status, and date range
 - Search across all study text and pitches
 - Status tracking (New / Saved / Pitched / Passed) saved to localStorage
@@ -34,9 +31,9 @@ Features:
 
 ## Schedule
 
-Runs automatically every **morning at 7:00 AM ET**. All 13 jobs run in parallel; the deploy job merges results and publishes the dashboard once all jobs complete.
+Runs automatically every **morning at 7:00 AM ET**. All jobs run in parallel; the deploy job merges results and publishes the dashboard once complete.
 
-Can also be triggered manually via **Actions → Mental Health Research Digest → Run workflow**.
+Can also be triggered manually via **Actions → Aging & Longevity Research Digest → Run workflow**.
 
 ---
 
@@ -44,26 +41,22 @@ Can also be triggered manually via **Actions → Mental Health Research Digest �
 
 | Category | Journals | Jobs |
 |---|---|---|
-| Psychology | 135 | 3 (chunks 1–3) |
-| Psychiatry | 111 | 2 (chunks 1–2) |
-| Behavioral Sciences | 88 | 2 (chunks 1–2) |
-| Brain | 23 | 1 |
-| Neurology | 21 | 1 |
-| Psychophysiology | 22 | 1 |
-| Psychopharmacology | 14 | 1 |
-| Social Sciences | 7 | 1 |
-| Substance-Related Disorders | 4 | 1 |
+| Seniors & Aging | 82 | 1 |
+| Geriatrics | 68 | 1 |
+| Nutritional Sciences | 62 | 1 |
+| Endocrinology & Metabolism | 121 | 2 (chunks 1–2) |
+| Cardiology | 150 | 2 (chunks 1–2) |
 
-Large categories are split into chunks so each job processes ~45 journals, keeping run times under 20 minutes.
+Large categories are split into chunks so each job processes ~60–75 journals, keeping run times under 20 minutes.
 
 ---
 
 ## Manual trigger
 
-Go to **Actions → Mental Health Research Digest → Run workflow**.
+Go to **Actions → Aging & Longevity Research Digest → Run workflow**.
 
-- Leave **category** blank to run all 13 jobs
-- Enter an exact category name (e.g. `Brain`) to run just that category
+- Leave **category** blank to run all jobs
+- Enter an exact category name (e.g. `Cardiology`) to run just that category
 
 ---
 
@@ -85,6 +78,7 @@ Add these in **Settings → Secrets and variables → Actions**:
 | `ANTHROPIC_API_KEY` | Anthropic API key (`sk-ant-...`) |
 | `SERPAPI_KEY` | SerpAPI key for Google News filtering |
 | `RESEND_API_KEY` | Resend API key (`re_...`) for email delivery |
+| `DASHBOARD_URL` | Full URL of your GitHub Pages dashboard |
 
 ---
 
@@ -93,14 +87,19 @@ Add these in **Settings → Secrets and variables → Actions**:
 ```
 .github/
   workflows/
-    mh-digest.yml           # GitHub Actions workflow (matrix + deploy)
+    aging-longevity-digest.yml   # GitHub Actions workflow (matrix + deploy)
 scripts/
-  mh_digest.py              # Main pipeline: PubMed → Claude → JSON artifact
-  merge_results.py          # Deploy job: merges artifacts → data/results.json
+  aging_longevity_digest.py      # Main pipeline: PubMed → Claude → JSON artifact
+  merge_results.py               # Deploy job: merges artifacts → data/results.json
+  extract_journals.py            # One-time: extracts CSVs from PubMed_Journals_Categorized.xlsx
 data/
-  Mental Health - Brain Mental Health.csv   # Curated journal list with ISSNs
-  results.json              # Auto-generated by deploy job; read by dashboard
-index.html                  # GitHub Pages dashboard
+  Seniors & Aging.csv
+  Geriatrics.csv
+  Nutritional Sciences.csv
+  Endocrinology & Metabolism.csv
+  Cardiology.csv
+  results.json                   # Auto-generated by deploy job; read by dashboard
+index.html                       # GitHub Pages dashboard
 requirements.txt
 ```
 
@@ -108,15 +107,16 @@ requirements.txt
 
 ## Dashboard study card fields
 
-Each study card on the dashboard shows:
+Each study card shows:
 
 - **Headline** — plain-language present-tense summary
+- **Relevance score** — 1–10, weighted for aging/longevity journalism fit
 - **Category & journal** — source metadata
-- **Groundbreaking type** — Counterintuitive / Overturns prior research / First-in-class
+- **Groundbreaking type** — Counterintuitive / Overturns prior research / First-in-class / Aging finding
 - **Media coverage** — SERPAPI verification status
-- **The study** — what was done, who participated, key finding
-- **Why it matters** — real-world significance
+- **The study** — what was done, who participated (N=X, age range), key finding
+- **Why it matters** — real-world significance for healthy aging
 - **Caveats** — limitations flagged automatically
-- **⚠ Fact-check note** — corrections made by the editor pass
-- **📰 New Scientist Mind pitch** — suggested headline, opening hook, pitch angle, caveats to flag
+- **Fact-check note** — corrections made during the Claude pass
+- **Pitch angles** — one expandable block per publication type (AARP / Prevention / Next Avenue / Eating Well / General health)
 - **Status** — New / Saved / Pitched / Passed (tracked in your browser)

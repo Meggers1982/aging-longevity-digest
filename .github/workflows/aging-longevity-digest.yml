@@ -1,4 +1,4 @@
-name: Mental Health Research Digest
+name: Aging & Longevity Research Digest
 
 on:
   # Runs every morning at 7:00 AM ET (12:00 UTC)
@@ -24,58 +24,35 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
-      fail-fast: false   # one job failing won't cancel the others
+      fail-fast: false
       matrix:
         include:
-          # ── Psychology (135 journals → 3 chunks of ~45) ──────────────────
-          - category: Psychology
-            chunk_index: "1"
-            chunk_total: 3
-          - category: Psychology
-            chunk_index: "2"
-            chunk_total: 3
-          - category: Psychology
-            chunk_index: "3"
-            chunk_total: 3
-
-          # ── Psychiatry (111 journals → 2 chunks of ~55) ──────────────────
-          - category: Psychiatry
+          # ── Endocrinology & Metabolism (121 journals → 2 chunks) ─────────
+          - category: "Endocrinology & Metabolism"
             chunk_index: "1"
             chunk_total: 2
-          - category: Psychiatry
+          - category: "Endocrinology & Metabolism"
             chunk_index: "2"
             chunk_total: 2
 
-          # ── Behavioral Sciences (88 journals → 2 chunks of ~44) ──────────
-          - category: Behavioral Sciences
+          # ── Cardiology (150 journals → 2 chunks) ─────────────────────────
+          - category: Cardiology
             chunk_index: "1"
             chunk_total: 2
-          - category: Behavioral Sciences
+          - category: Cardiology
             chunk_index: "2"
             chunk_total: 2
 
           # ── Smaller categories — single runs ─────────────────────────────
-          - category: Brain
+          - category: "Seniors & Aging"
             chunk_index: "1"
             chunk_total: 1
 
-          - category: Neurology
+          - category: Geriatrics
             chunk_index: "1"
             chunk_total: 1
 
-          - category: Psychophysiology
-            chunk_index: "1"
-            chunk_total: 1
-
-          - category: Psychopharmacology
-            chunk_index: "1"
-            chunk_total: 1
-
-          - category: Social Sciences
-            chunk_index: "1"
-            chunk_total: 1
-
-          - category: Substance-Related Disorders
+          - category: "Nutritional Sciences"
             chunk_index: "1"
             chunk_total: 1
 
@@ -103,14 +80,14 @@ jobs:
           CHUNK_TOTAL:       ${{ matrix.chunk_total }}
           TOPIC_FOCUS:       ""
           FILTER_CATEGORY:   ${{ github.event.inputs.category }}
-          DASHBOARD_URL:     https://meggers1982.github.io/new-scientist-story-ideas/
-        run: python scripts/mh_digest.py
+          DASHBOARD_URL:     ${{ secrets.DASHBOARD_URL }}
+        run: python scripts/aging_longevity_digest.py
 
       - name: Upload results artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: results-${{ matrix.category }}-${{ matrix.chunk_index }}
+          name: al-results-${{ matrix.category }}-${{ matrix.chunk_index }}
           path: /tmp/results.json
           if-no-files-found: ignore
           retention-days: 1
@@ -141,7 +118,7 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
-          pattern: results-*
+          pattern: al-results-*
           path: /tmp/artifacts
 
       - name: List downloaded artifacts
@@ -151,7 +128,7 @@ jobs:
         env:
           RESEND_API_KEY:  ${{ secrets.RESEND_API_KEY }}
           RECIPIENT_EMAIL: meagan.lea.morris@gmail.com
-          DASHBOARD_URL:   https://meggers1982.github.io/new-scientist-story-ideas/
+          DASHBOARD_URL:   ${{ secrets.DASHBOARD_URL }}
         run: python scripts/merge_results.py
 
       - name: Commit and push updated results
@@ -162,6 +139,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update research digest results [skip ci]"
+            git commit -m "chore: update aging longevity digest results [skip ci]"
             git push
           fi

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mental Health Research Digest</title>
+<title>Aging &amp; Longevity Research Digest</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -17,7 +17,7 @@
 
   /* ── Header ── */
   header {
-    background: #1a1a2e;
+    background: #1a3a2e;
     color: white;
     padding: 24px 32px;
     position: sticky;
@@ -104,7 +104,7 @@
     font-weight: bold;
     line-height: 1.4;
     margin-bottom: 8px;
-    color: #1a1a2e;
+    color: #1a3a2e;
   }
   .card-meta {
     display: flex;
@@ -125,11 +125,11 @@
     text-transform: uppercase;
     letter-spacing: 0.03em;
   }
-  .badge-cat   { background: #ede9fe; color: #5b21b6; }
+  .badge-cat   { background: #d1fae5; color: #065f46; }
   .badge-gb    { background: #fef3c7; color: #92400e; }
   .badge-media { background: #dcfce7; color: #166534; }
 
-  /* NS Score badge */
+  /* Relevance Score badge */
   .score-badge {
     display: inline-flex;
     align-items: center;
@@ -173,51 +173,69 @@
     margin-bottom: 10px;
   }
 
-  /* ── NS Pitch ── */
+  /* ── Pitch Angles ── */
   .pitch-toggle {
     display: flex;
     align-items: center;
     gap: 8px;
     cursor: pointer;
     padding: 10px 24px;
-    background: #f0f7ff;
-    border-top: 1px solid #dbeafe;
+    background: #f0fdf4;
+    border-top: 1px solid #bbf7d0;
     font-size: 0.85rem;
     font-family: sans-serif;
-    color: #1d4ed8;
+    color: #166534;
     font-weight: 600;
     user-select: none;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
   }
-  .pitch-toggle:hover { background: #dbeafe; }
+  .pitch-toggle:hover { background: #dcfce7; }
   .pitch-toggle .arrow { transition: transform 0.2s; font-style: normal; }
   .pitch-toggle.open .arrow { transform: rotate(90deg); }
 
   .pitch-body {
     display: none;
     padding: 16px 24px 20px;
-    background: #f0f7ff;
-    border-top: 1px solid #dbeafe;
+    background: #f0fdf4;
+    border-top: 1px solid #bbf7d0;
     font-size: 0.88rem;
   }
   .pitch-body.open { display: block; }
-  .pitch-field { margin-bottom: 12px; }
-  .pitch-field label {
-    display: block;
+
+  /* Individual pitch angle block */
+  .pitch-angle-block {
+    background: white;
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  .pitch-angle-block:last-child { margin-bottom: 0; }
+  .pitch-pub-type {
     font-size: 0.72rem;
     font-family: sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #2563eb;
+    color: #16a34a;
+    margin-bottom: 6px;
+  }
+  .pitch-field { margin-bottom: 10px; }
+  .pitch-field:last-child { margin-bottom: 0; }
+  .pitch-field label {
+    display: block;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6b7280;
     margin-bottom: 3px;
   }
-  .pitch-field p { color: #1e3a6e; margin: 0; line-height: 1.5; }
+  .pitch-field p { color: #1e3a2e; margin: 0; line-height: 1.5; }
   .pitch-headline {
     font-size: 1rem;
     font-weight: bold;
-    color: #1e3a6e;
+    color: #1e3a2e;
     font-family: Georgia, serif;
   }
 
@@ -230,6 +248,8 @@
     gap: 12px;
     border-top: 1px solid #f0f0f0;
     flex-wrap: wrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .status-selector { display: flex; gap: 6px; }
   .status-btn {
@@ -295,7 +315,7 @@
 <header>
   <div class="header-row">
     <div>
-      <h1>📰 Mental Health &amp; Brain Science Research Digest</h1>
+      <h1>Aging &amp; Longevity Research Digest</h1>
       <div class="meta" id="last-updated">Loading…</div>
     </div>
     <div class="stats-chips" id="stats-chips"></div>
@@ -307,6 +327,11 @@
 
   <select id="filter-category" onchange="applyFilters()">
     <option value="">All categories</option>
+    <option value="Seniors &amp; Aging">Seniors &amp; Aging</option>
+    <option value="Geriatrics">Geriatrics</option>
+    <option value="Nutritional Sciences">Nutritional Sciences</option>
+    <option value="Endocrinology &amp; Metabolism">Endocrinology &amp; Metabolism</option>
+    <option value="Cardiology">Cardiology</option>
   </select>
 
   <select id="filter-groundbreaking" onchange="applyFilters()">
@@ -314,6 +339,7 @@
     <option value="Counterintuitive">Counterintuitive</option>
     <option value="Overturns">Overturns prior research</option>
     <option value="First-in-class">First-in-class</option>
+    <option value="aging">Aging/longevity finding</option>
   </select>
 
   <select id="filter-status" onchange="applyFilters()">
@@ -339,7 +365,7 @@
   </select>
 
   <select id="sort-by" onchange="applyFilters()">
-    <option value="score" selected>Sort: NS score</option>
+    <option value="score" selected>Sort: Relevance score</option>
     <option value="date">Sort: newest first</option>
   </select>
 
@@ -354,7 +380,7 @@
 
 <script>
 let ALL_STUDIES = [];
-const STATUS_KEY = "mh-digest-status";
+const STATUS_KEY = "al-digest-status";
 
 // ── Load data ──────────────────────────────────────────────────────────────
 async function init() {
@@ -365,16 +391,7 @@ async function init() {
 
     document.getElementById("last-updated").textContent =
       "Last updated: " + new Date(data.last_updated).toLocaleString() +
-      " · " + data.total_studies + " total studies";
-
-    // Build category list
-    const cats = [...new Set(data.studies.map(s => s.category))].sort();
-    const sel = document.getElementById("filter-category");
-    cats.forEach(c => {
-      const o = document.createElement("option");
-      o.value = c; o.textContent = c;
-      sel.appendChild(o);
-    });
+      " · " + data.total_studies + " total studies · Daily research discovery for healthy aging journalists";
 
     ALL_STUDIES = data.studies;
     renderStats(data);
@@ -448,15 +465,16 @@ function applyFilters() {
     if (status === "removed" && statusF !== "removed") return false;
     if (statusF && status !== statusF) return false;
     if (category && s.category !== category) return false;
-    if (gbType && !(s.groundbreaking || "").includes(gbType)) return false;
-    if (minScore > 0 && (s.ns_score || 0) < minScore) return false;
+    if (gbType && !(s.groundbreaking || "").toLowerCase().includes(gbType.toLowerCase())) return false;
+    if (minScore > 0 && (s.relevance_score || 0) < minScore) return false;
     if (cutoff) {
       const rd = new Date(s.run_date);
       if (rd < cutoff) return false;
     }
     if (query) {
-      const text = [s.headline, s.summary, s.category, s.journal,
-                    s.ns_pitch?.pitch_angle, s.ns_pitch?.hook].join(" ").toLowerCase();
+      const pitchText = (s.pitch_angles || [])
+        .map(p => [p.pitch_angle, p.hook, p.headline].join(" ")).join(" ");
+      const text = [s.headline, s.summary, s.category, s.journal, pitchText].join(" ").toLowerCase();
       if (!text.includes(query)) return false;
     }
     return true;
@@ -464,7 +482,7 @@ function applyFilters() {
 
   // Sort
   if (sortBy === "score") {
-    filtered.sort((a, b) => (b.ns_score || 0) - (a.ns_score || 0));
+    filtered.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0));
   } else {
     filtered.sort((a, b) => (b.run_date || "").localeCompare(a.run_date || ""));
   }
@@ -490,20 +508,20 @@ function clearFilters() {
 }
 
 function scoreBadge(s) {
-  const score = s.ns_score;
+  const score = s.relevance_score;
   if (!score && score !== 0) return "";
   const cls   = score >= 8 ? "score-high" : score >= 6 ? "score-mid" : "score-low";
   const label = score >= 8 ? "Top pick" : score >= 6 ? "Strong" : "Lower fit";
-  const title = esc(s.ns_score_reason || "");
-  return `<span class="score-badge ${cls}" title="${title}"><span class="score-dot"></span>${score}/10 · ${label}</span>`;
+  const title = esc(s.relevance_score_reason || "");
+  return `<span class="score-badge ${cls}" title="${title}"><span class="score-dot"></span>Relevance ${score}/10 · ${label}</span>`;
 }
 
 // ── Card rendering ────────────────────────────────────────────────────────
 function renderCard(s) {
   const statuses = getStatuses();
   const status = statuses[s.pmid] || "new";
-  const pitch = s.ns_pitch || {};
-  const hasPitch = pitch.headline || pitch.hook || pitch.pitch_angle;
+  const pitchAngles = Array.isArray(s.pitch_angles) ? s.pitch_angles : [];
+  const hasPitch = pitchAngles.length > 0;
 
   const statusBtns = ["new","saved","pitched","passed"].map(st =>
     `<button class="status-btn${status === st ? ` active-${st}` : ''}"
@@ -515,16 +533,23 @@ function renderCard(s) {
     ? `<div class="fact-check-note">⚠️ <strong>Fact-check note:</strong> ${esc(s.fact_check_note)}</div>`
     : "";
 
+  const pitchAnglesHtml = pitchAngles.map(p => `
+    <div class="pitch-angle-block">
+      ${p.publication_type ? `<div class="pitch-pub-type">${esc(p.publication_type)}</div>` : ""}
+      ${p.headline ? `<div class="pitch-field"><label>Headline</label><p class="pitch-headline">${esc(p.headline)}</p></div>` : ""}
+      ${p.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(p.hook)}</p></div>` : ""}
+      ${p.why_it_fits ? `<div class="pitch-field"><label>Why it fits</label><p>${esc(p.why_it_fits)}</p></div>` : ""}
+      ${p.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(p.pitch_angle)}</p></div>` : ""}
+      ${p.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(p.caveats_to_flag)}</p></div>` : ""}
+    </div>
+  `).join("");
+
   const pitchSection = hasPitch ? `
     <div class="pitch-toggle" onclick="togglePitch(this)" data-pmid="${s.pmid}">
-      <span class="arrow">▶</span> 📰 New Scientist Mind pitch
+      <span class="arrow">▶</span> Pitch angles (${pitchAngles.length})
     </div>
     <div class="pitch-body" id="pitch-${s.pmid}">
-      ${pitch.headline ? `<div class="pitch-field"><label>Suggested headline</label><p class="pitch-headline">${esc(pitch.headline)}</p></div>` : ""}
-      ${pitch.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(pitch.hook)}</p></div>` : ""}
-      ${pitch.why_it_fits ? `<div class="pitch-field"><label>Why it fits Mind</label><p>${esc(pitch.why_it_fits)}</p></div>` : ""}
-      ${pitch.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(pitch.pitch_angle)}</p></div>` : ""}
-      ${pitch.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(pitch.caveats_to_flag)}</p></div>` : ""}
+      ${pitchAnglesHtml}
     </div>
   ` : "";
 
