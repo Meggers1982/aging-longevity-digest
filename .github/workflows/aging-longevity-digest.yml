@@ -72,7 +72,7 @@ jobs:
       - name: Run digest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SERPAPI_KEY:       ${{ secrets.SERPAPI_KEY }}
+          SERPAPI_KEY:       ${{ secrets.SERPAPI_API_KEY }}
           RESEND_API_KEY:    ${{ secrets.RESEND_API_KEY }}
           RECIPIENT_EMAIL:   meagan.lea.morris@gmail.com
           CATEGORIES:        ${{ matrix.category }}
@@ -140,5 +140,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update aging longevity digest results [skip ci]"
+            git pull --rebase origin main
             git push
           fi
