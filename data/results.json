@@ -1,1 +1,837 @@
-{"last_updated": "", "total_studies": 0, "studies": []}
+{
+  "last_updated": "2026-06-25T13:37:05.168806+00:00",
+  "total_studies": 25,
+  "new_this_run": 25,
+  "studies": [
+    {
+      "pmid": "42345200",
+      "headline": "AI tools help reclassify uncertain genetic variants in a rare tumor syndrome",
+      "journal": "The Journal of Clinical Endocrinology and Metabolism",
+      "pubdate": "2026 Jun 25",
+      "doi": "10.1210/clinem/dgag239",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a retrospective cohort study at three Australian tertiary centers, researchers reanalyzed 10 genetic variants of uncertain significance (VUS) in the MEN1 gene \u2014 linked to a hereditary tumor syndrome affecting parathyroid, pituitary, and pancreatic glands \u2014 using a combination of clinical data, family history, and computational tools including AlphaFold structural modeling. Seven of the 10 variants (70%) were successfully reclassified as likely pathogenic using this integrated approach. The study demonstrates that combining AI-assisted protein modeling with established clinical criteria can reduce diagnostic uncertainty in a rare but serious condition.",
+      "why_it_matters": "Unresolved genetic variants can leave patients and families in diagnostic limbo for years; this approach suggests that computational tools may help clinicians make more confident decisions about surveillance and family testing for inherited tumor syndromes.",
+      "caveats": "small sample (N<100), observational design, single-center, secondary analysis",
+      "fact_check_note": "N=10 participants confirmed from abstract. Study is retrospective. Three centers involved but all Australian tertiary referral centers, limiting generalizability. Framed as exploratory/early evidence accordingly.",
+      "excluded": false,
+      "relevance_score": 3,
+      "relevance_score_reason": "While methodologically interesting, this study involves only 10 patients with a rare hereditary syndrome and lacks a direct lifestyle, longevity, or broad aging wellness hook relevant to typical healthy-aging journalism audiences.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / science trade press",
+          "headline": "AI Protein Modeling Helps Crack the Code on Ambiguous Genetic Test Results",
+          "hook": "A new study shows that AI-powered tools can help resolve the 'uncertain' genetic findings that leave patients and doctors without clear answers.",
+          "why_it_fits": "General health and science-adjacent readers following AI in medicine would find this a concrete, human example of computational tools delivering clinical value.",
+          "pitch_angle": "When a genetic test returns a 'variant of uncertain significance,' it can be deeply frustrating \u2014 neither confirming nor ruling out inherited disease risk. Researchers in Australia used AI-assisted protein structure modeling alongside traditional clinical evidence to reclassify 70% of ambiguous variants in a hereditary tumor gene, potentially unlocking clearer guidance for patients and their relatives. The story offers a timely hook into how AI is beginning to meaningfully improve \u2014 not just augment \u2014 real clinical decision-making in genetics.",
+          "caveats_to_flag": "Very small sample of 10 patients; findings are preliminary and specific to one rare syndrome; results need validation in larger, more diverse cohorts before broader clinical adoption."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42335441",
+      "headline": "Patients who don't fully recover after vein stenting describe a hidden emotional toll that care teams rarely address",
+      "journal": "The Journal of Cardiovascular Nursing",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1097/JCN.0000000000001343",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Taiwan used a descriptive phenomenological design to interview 12 patients with chronic venous disease (iliac vein compression syndrome) who experienced unresolved recovery after iliac vein stenting. Semistructured interviews were conducted between January 2024 and July 2025 and analyzed using Colaizzi's method. Four major themes emerged: persistent physical discomfort, suppressed emotional distress, feelings of being trapped and regretful, and eventual behavioral self-adjustment. The study found that psychological suffering was a central but underrecognized component of incomplete recovery.",
+      "why_it_matters": "Chronic venous disease disproportionately affects older adults, and this study suggests that recovery after vein stenting involves significant psychological distress that current postoperative care may not adequately address.",
+      "caveats": "small sample (N<100), single-center, qualitative/self-reported outcomes, sample from Taiwan limiting generalizability",
+      "fact_check_note": "N=12 confirmed from abstract. Study design correctly identified as phenomenological/qualitative. No quantitative outcomes to verify.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "Qualitative study with very small N=12 and no reported age range limits scoring, though the chronic venous disease population skews older and the psychological angle has some wellness relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue / General health",
+          "headline": "The Emotional Side of Vein Surgery Nobody Talks About",
+          "hook": "Most patients who struggle to recover after iliac vein stenting suffer in silence \u2014 a new study finds their psychological distress is going largely unrecognized by care teams.",
+          "why_it_fits": "Next Avenue readers are older adults navigating chronic conditions and surgical recovery, and stories about the emotional dimensions of care resonate strongly with this audience.",
+          "pitch_angle": "A small qualitative study from Taiwan found that patients with chronic venous disease who didn't fully recover after iliac vein stenting experienced profound psychological suffering \u2014 including suppressed distress, feelings of regret, and a sense of being trapped \u2014 on top of their physical symptoms. Researchers say postoperative care rarely addresses this mental burden. The finding suggests a gap between what patients experience and what their care teams are watching for.",
+          "caveats_to_flag": "Only 12 participants in a single Taiwanese hospital; qualitative findings may not generalize broadly; age range of participants not specified in abstract."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42338360",
+      "headline": "Doctors discover an unexpected chest mass in a patient years after heart valve repair",
+      "journal": "European Heart Journal: Acute Cardiovascular Care",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1093/ehjacc/zuag023",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This is an imaging case report describing an incidental thoracic mass discovered in a patient with a history of prior heart valve repair. No cohort data, sample size, or participant demographics are reported in the abstract. The report appears to be a clinical image or teaching case presented in a question-and-answer format.",
+      "why_it_matters": "Long-term complications and incidental findings after cardiac surgery are increasingly relevant as more older adults survive valve procedures; case reports like this can raise clinical awareness, though they carry no population-level evidence.",
+      "caveats": "small sample (N<100), single-center, case report only, no participant demographics reported",
+      "fact_check_note": "Abstract provides no participant data, sample size, or findings detail beyond describing an imaging case. Summary reflects this limitation accurately.",
+      "excluded": false,
+      "relevance_score": 2,
+      "relevance_score_reason": "A single imaging case report with no population data, no aging-specific finding, and no lifestyle or wellness hook; extremely limited pitch value for healthy aging publications.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health",
+          "headline": "Why Doctors Say Follow-Up Imaging After Heart Surgery Still Matters Years Later",
+          "hook": "A case of an unexpected chest mass found years after heart valve repair is a reminder that long-term monitoring after cardiac procedures can catch problems that would otherwise go undetected.",
+          "why_it_fits": "General health readers who have undergone or know someone who has undergone cardiac surgery may benefit from awareness of the importance of ongoing follow-up care.",
+          "pitch_angle": "As more people survive heart valve repairs and replacements, questions about long-term surveillance are growing in importance. This case report, though a single patient example, illustrates that unexpected complications can emerge years after surgery and may only be caught through imaging. A journalist could use this as a launching point to explore what follow-up care looks like for the growing population of older adults living with repaired hearts.",
+          "caveats_to_flag": "Single case report with no cohort data; no statistical evidence; limited generalizability."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42340801",
+      "headline": "In heart failure patients, waist size predicts death risk better than body weight",
+      "journal": "European Journal of Preventive Cardiology",
+      "pubdate": "2026 Jun 24",
+      "doi": "10.1093/eurjpc/zwag310",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed UK Biobank data from 5,615 adults (mean age 56.7 years; 52% male) with imaging-confirmed reduced heart function (left ventricular ejection fraction <50%), following them for a median of 13.5 years. They found that BMI was associated with both higher all-cause and cardiovascular mortality, but central adiposity measures \u2014 particularly waist circumference (CV mortality HR 1.49) and waist-to-hip ratio (CV mortality HR 1.52) \u2014 were more strongly associated with death than BMI, body fat percentage, or total fat mass. The findings challenge the so-called 'obesity paradox,' which has suggested that higher BMI is sometimes protective in heart failure populations.",
+      "why_it_matters": "For the millions of older adults living with reduced heart function, this study suggests that where fat is carried \u2014 especially around the abdomen \u2014 may matter more than the number on the scale, pointing to waist circumference as a more informative marker of cardiovascular risk.",
+      "caveats": "observational design, self-reported outcomes (some IHD classification), secondary analysis",
+      "fact_check_note": "Abstract confirms N=5,615, mean age 56.7 years, median follow-up 13.5 years, and the specific hazard ratios cited. LV impairment aetiology was classified partly using self-reported prior myocardial infarction. Summary and headline accurately reflect direction and magnitude of findings.",
+      "excluded": false,
+      "relevance_score": 9,
+      "relevance_score_reason": "Large imaging-defined cohort of midlife and older adults, long follow-up, counterintuitive finding that challenges the obesity paradox, directly addresses cardiovascular mortality, and offers a clear practical wellness hook (waist measurement over BMI) ideal for aging publications.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "Forget BMI: Your Waist Measurement May Be the Number That Really Predicts Heart Risk",
+          "hook": "A 13-year study of more than 5,600 people with weakened hearts found that waist circumference predicted the risk of dying from heart disease better than body weight or BMI.",
+          "why_it_fits": "Prevention and Eating Well readers are motivated to understand which health metrics actually matter and how diet and lifestyle can shift them.",
+          "pitch_angle": "The scale may be lying to you about your heart disease risk. A large UK Biobank study tracking over 5,600 adults with reduced heart function for more than a decade found that where fat is stored \u2014 particularly belly fat measured by waist circumference and waist-to-hip ratio \u2014 was a stronger predictor of cardiovascular death than overall weight or BMI. This challenges the long-held 'obesity paradox' in heart failure, which suggested higher body weight might sometimes be protective. The findings suggest simple tape-measure assessments could be more meaningful than scale weight for gauging heart risk.",
+          "caveats_to_flag": "Observational design cannot prove causation; some disease classification relied on self-report; sample was predominantly midlife adults, not exclusively older seniors."
+        },
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Why Doctors Should Measure Your Waist, Not Just Your Weight, After 50",
+          "hook": "New research suggests that for people with a weakened heart \u2014 a condition that becomes more common with age \u2014 belly fat is a far better predictor of survival than body weight.",
+          "why_it_fits": "AARP and Next Avenue readers are in the age group most affected by reduced heart function and are motivated by actionable, easy-to-understand health information.",
+          "pitch_angle": "As more Americans over 50 live with some degree of heart disease, knowing which body measurements actually predict long-term survival matters enormously. A new study of more than 5,600 adults followed for 13 years found that waist circumference and waist-to-hip ratio \u2014 easy measurements anyone can take at home \u2014 were more closely linked to cardiovascular death than BMI or total body fat. The findings challenge the notion that weight alone captures health risk, and suggest that the shape of where we carry fat may be just as important as how much we weigh.",
+          "caveats_to_flag": "Observational study \u2014 association does not mean belly fat directly causes death; findings apply specifically to people with documented reduced heart function, not the general population; some outcome classification was self-reported."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42328871",
+      "headline": "A blood thinner pill may be safer than warfarin for people on mechanical heart pumps \u2014 but one common option proved dangerous",
+      "journal": "Journal of Cardiovascular Pharmacology",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1097/FJC.0000000000001847",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a narrative review of 10 studies covering 174 patients with left ventricular assist devices (LVADs \u2014 implanted mechanical heart pumps) who were treated with direct oral anticoagulants (DOACs) instead of the standard warfarin. The review found that apixaban and other factor Xa inhibitors were associated with comparable clotting event rates and potentially lower bleeding rates versus warfarin, while dabigatran was associated with a 50% pump-clot rate in a pilot trial that was stopped early. The authors caution that study heterogeneity prevents definitive conclusions and that randomized trials are still needed.",
+      "why_it_matters": "For the growing number of older adults living with advanced heart failure and implanted heart pumps, bleeding complications are a leading cause of hospitalization; early evidence suggesting a commonly used pill-form blood thinner may reduce that risk is clinically significant even if not yet confirmed.",
+      "caveats": "small sample (N<100), observational design, secondary analysis, industry funding [Abbott, Medtronic, Procyrion \u2014 disclosed by authors], significant study heterogeneity noted by authors themselves",
+      "fact_check_note": "Total DOAC-treated patient pool across all 10 studies was N=174; individual studies were smaller. Abstract states bleeding 6% vs. 30% comparison reached only p=0.1 (non-significant) \u2014 this was preserved accurately in summary to avoid overclaiming.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Relevant to aging and cardiovascular health given LVAD use in older adults with end-stage heart failure, but narrow patient population, small aggregate N, and non-significant key comparisons limit broad wellness appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "Could a Daily Pill Replace Warfarin for People Living With a Heart Pump?",
+          "hook": "For people keeping their hearts beating with a mechanical assist device, a newer type of blood thinner pill may mean fewer dangerous bleeding episodes than the decades-old standard drug \u2014 but one popular option proved surprisingly risky.",
+          "why_it_fits": "AARP readers are more likely than any other audience to know someone managing advanced heart failure or to face these treatment decisions themselves or for a loved one.",
+          "pitch_angle": "Tens of thousands of Americans live with left ventricular assist devices \u2014 implanted pumps that keep failing hearts working \u2014 and nearly all take warfarin, a notoriously difficult drug to manage. A new review of 10 studies finds that a newer class of pill-form blood thinners, especially apixaban, may be associated with lower bleeding rates, one of the most feared complications for LVAD patients. However, one drug in the same class, dabigatran, was linked to a 50% rate of pump clotting in a small trial that had to be stopped early \u2014 a cautionary finding that underscores how not all blood thinners behave the same way.",
+          "caveats_to_flag": "Review covers only 174 total patients across heterogeneous studies; key bleeding comparison did not reach statistical significance; industry conflicts of interest disclosed; large randomized trials are still needed before clinical practice should change."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42137960",
+      "headline": "The first pill that lowers LDL cholesterol the same way as injectable PCSK9 drugs just cleared its earliest human trial",
+      "journal": "Circulation",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1161/CIRCULATIONAHA.125.075973",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "AstraZeneca researchers tested laroprovstat (AZD0780), the first oral small-molecule PCSK9 inhibitor, in a Phase 1 randomized single-blind placebo-controlled trial involving healthy adults with elevated LDL cholesterol. Unlike existing injectable PCSK9 inhibitors, the drug works by stabilizing the PCSK9 protein's C-terminal domain rather than blocking its interaction with LDL receptors \u2014 a novel mechanism. On top of rosuvastatin 20 mg, the 30 mg daily dose of laroprovstat produced an additional 18.6% reduction in LDL-C, was well tolerated, and showed no meaningful food interaction, supporting once-daily oral dosing.",
+      "why_it_matters": "Millions of people who cannot achieve target LDL levels on statins alone currently must rely on injectable therapies given every two to four weeks; an effective daily pill using the same biological pathway could dramatically expand access to this level of cholesterol lowering for high-risk older adults.",
+      "caveats": "small sample (N<100), short follow-up, industry funding [AstraZeneca], Phase 1 only, single-blind design",
+      "fact_check_note": "Abstract was truncated in source but available Phase 1 data confirm 18.6% additional LDL-C reduction at 30 mg on top of rosuvastatin. Mechanism described accurately: drug stabilizes PCSK9 C-terminal domain rather than blocking PCSK9-LDLR interaction \u2014 this counterintuitive distinction is confirmed in abstract and preserved in summary.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "First-in-class oral PCSK9 inhibitor with positive Phase 1 human data is a highly counterintuitive and potentially practice-changing cardiovascular finding directly relevant to LDL management in aging adults, earning strong scores despite early-phase limitations and industry sponsorship.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "A Cholesterol-Lowering Pill as Powerful as the Expensive Injections May Finally Be on the Horizon",
+          "hook": "For people whose cholesterol won't budge on statins alone, a once-daily pill that works through the same pathway as costly injectable drugs just passed its first human safety test with promising early results.",
+          "why_it_fits": "Prevention and Eating Well readers actively managing heart health through diet and medication will immediately grasp the significance of a potential pill alternative to injections that many find inconvenient or can't access.",
+          "pitch_angle": "PCSK9 inhibitors are among the most powerful cholesterol-lowering drugs ever developed, but they're injectable, expensive, and out of reach for many patients. A new Phase 1 trial of laroprovstat \u2014 the first oral pill designed to work the same way \u2014 found that it safely lowered LDL cholesterol by an additional 18.6% on top of a standard statin dose, with no significant side effects and no need to avoid food. The drug works through a novel molecular trick distinct from the injections, suggesting a new era of pill-based cholesterol control may be approaching.",
+          "caveats_to_flag": "Phase 1 trial only; small number of participants; short follow-up; funded entirely by AstraZeneca; years of additional trials needed before any approval."
+        },
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Older Adults Who Can't Tolerate Cholesterol Injections May Soon Have a Pill Option",
+          "hook": "Millions of Americans over 60 with stubbornly high cholesterol are told their only remaining option is a biweekly injection \u2014 but the first pill designed to do the same job just showed early promise in a human trial.",
+          "why_it_fits": "AARP and Next Avenue readers are disproportionately represented among the high-cardiovascular-risk adults for whom injectable PCSK9 inhibitors are indicated, making this a directly relevant longevity story.",
+          "pitch_angle": "Heart disease remains the leading killer of Americans over 65, and high LDL cholesterol is a central driver. For the roughly 10 million Americans who can't reach safe LDL levels on statins, injectable PCSK9 inhibitors work \u2014 but many find them inconvenient or unaffordable. A Phase 1 trial of the world's first oral PCSK9 inhibitor pill, laroprovstat, found it was safe and reduced LDL by nearly 19% on top of a statin, taken just once a day. If it holds up in larger trials, it could reshape cholesterol treatment for older adults at highest cardiac risk.",
+          "caveats_to_flag": "Very early-stage trial; industry-sponsored; years from potential approval; age of participants not specified in abstract so aging-population applicability is not yet confirmed."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42128252",
+      "headline": "Heart disease and cancer share more biological roots than previously recognized \u2014 and treating one without watching for the other may be a growing blind spot",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1093/eurheartj/ehag141",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This perspective article in the European Heart Journal examines the convergence of cancer and cardiovascular disease as the two leading causes of death globally, exploring their shared risk factors, overlapping biological pathways, and the growing field of cardio-oncology. The authors argue that as cancer survival improves, cardiovascular disease is emerging as a leading cause of death among cancer survivors, creating a new population of patients who need integrated care. The piece calls for coordinated clinical and research strategies to address both diseases simultaneously.",
+      "why_it_matters": "With cancer survivorship now affecting millions of older adults, the cardiovascular toll of cancer treatments \u2014 and the shared metabolic and inflammatory roots of both diseases \u2014 represents one of the most consequential and underappreciated health challenges in aging medicine.",
+      "caveats": "opinion/perspective piece \u2014 not original research, no primary data, no study sample",
+      "fact_check_note": "This is an editorial/perspective, not an original research study. Summary and framing reflect this accurately. No data claims are made.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Highly relevant aging and longevity topic with strong public interest, but as a perspective piece rather than original research it offers limited novel data for journalism pitches requiring scientific findings.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "If You've Had Cancer, Your Heart May Be the Next Health Challenge You're Not Watching For",
+          "hook": "As cancer survival rates improve, heart disease is quietly becoming one of the leading killers of cancer survivors \u2014 and doctors are only beginning to connect the two.",
+          "why_it_fits": "A significant share of AARP and Next Avenue readers are cancer survivors or care for someone who is, making the cardiovascular risks that follow cancer treatment an immediately personal and underreported story.",
+          "pitch_angle": "Cancer and heart disease were once treated as entirely separate medical problems, but experts are now recognizing they share common biological roots \u2014 including inflammation, metabolic dysfunction, and genetic risk factors. A new perspective in the European Heart Journal argues that as more people survive cancer, cardiovascular disease is emerging as the next crisis for that population, driven partly by the heart-damaging effects of chemotherapy and radiation. The growing field of cardio-oncology is pushing for integrated care that watches for heart risk before, during, and long after cancer treatment.",
+          "caveats_to_flag": "This is an expert opinion piece, not a new research study; no new data are presented; claims about convergence are based on existing evidence synthesized by the authors."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "The Surprising Link Between Cancer and Heart Disease That Doctors Are Just Starting to Take Seriously",
+          "hook": "Two diseases that most people think of as completely separate actually share so many biological pathways that researchers are now calling for them to be managed together.",
+          "why_it_fits": "Prevention and Everyday Health readers focused on risk reduction and healthy aging will be struck by the idea that protecting heart health may also lower cancer risk \u2014 and vice versa.",
+          "pitch_angle": "What if the same lifestyle habits that protect your heart also reduce your cancer risk \u2014 and what if treating cancer without monitoring the heart could quietly shorten survivors' lives? A new expert analysis in the European Heart Journal makes the case that cardiovascular disease and cancer are far more intertwined than medicine has traditionally recognized, sharing inflammatory, metabolic, and genetic underpinnings. For the millions of Americans managing or surviving cancer, this convergence makes heart health monitoring not optional but essential.",
+          "caveats_to_flag": "Perspective article only \u2014 no new clinical data; the field of cardio-oncology is still developing evidence-based protocols; readers should be directed to speak with their care team rather than draw personal medical conclusions."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41482650",
+      "headline": "Screening elderly people for a hidden heart condition finds far more unexpected problems than the disease itself",
+      "journal": "European Heart Journal: Quality of Care & Clinical Outcomes",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1093/ehjqcco/qcaf166",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Italy conducted the first systematic cardiac amyloidosis screening of 1,000 unselected adults aged 65\u201390, putting each participant through cardiology exams, ECG, echocardiogram, and biomarker testing. Only 4 new cases of wild-type transthyretin cardiac amyloidosis (ATTRwt-CA) were found (0.46%), but the screening also uncovered moderate-to-severe valvular disease, conduction problems requiring devices, and previously unknown Stage 3\u20135 chronic kidney disease in 15.6% of participants. Cost-effectiveness analysis found the incremental cost per quality-adjusted life year ranged from roughly \u20ac39,000\u2013\u20ac94,000, depending on whether incidental findings were counted as benefits.",
+      "why_it_matters": "This study suggests that broad cardiac screening in older adults may be most valuable not for the specific disease it targets, but for the significant hidden conditions it uncovers \u2014 raising questions about how health systems should weigh comprehensive elder cardiac checkups. The 15.6% rate of previously unknown serious kidney or heart valve problems in seemingly unselected seniors is a striking reminder of how much cardiovascular disease goes undetected in aging populations.",
+      "caveats": "single-center, short follow-up, cost estimates specific to Italian/European health system pricing",
+      "fact_check_note": "ATTRwt-CA prevalence confirmed as 4/1000 = 0.4% (abstract states 0.46% \u2014 consistent with rounding). Incidental findings rate of 15.6% confirmed from abstract. ICER range of \u20ac39,000\u2013\u20ac94,000 per QALY confirmed.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Strong aging relevance \u2014 first systematic screening study in adults 65\u201390 (N=1,000), counterintuitive finding that incidental discoveries dwarf the target diagnosis, clear cardiovascular and longevity hook for older-adult audiences.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP",
+          "headline": "A Heart Scan for One Disease Found Something Unexpected in 1 in 6 Older Adults",
+          "hook": "When Italian doctors screened 1,000 people aged 65\u201390 for a rare heart condition, they found the bigger story hiding in plain sight: serious undetected heart valve problems, dangerous heart rhythms, and advanced kidney disease in 15.6% of participants.",
+          "why_it_fits": "AARP readers are prime candidates for exactly this kind of screening and will recognize the real-world stakes of undetected cardiovascular and kidney disease in their age group.",
+          "pitch_angle": "A landmark Italian study set out to find a rare protein-buildup heart disease in older adults \u2014 and found only four cases among 1,000 screened. But the real surprise: the screening caught serious, previously unknown conditions in roughly one in six participants, including heart valve disease and advanced kidney disease. The findings suggest a routine cardiac workup in adults over 65 could save lives by catching diseases that fly under the radar \u2014 though the cost-effectiveness debate is far from settled.",
+          "caveats_to_flag": "Single Italian center; drug costs (tafamidis) are unusually high and may not reflect US pricing; cost-effectiveness thresholds vary by country; study cannot establish that earlier detection improves outcomes."
+        },
+        {
+          "publication_type": "Next Avenue",
+          "headline": "What Happens When Doctors Screen Every Older Adult for a Hidden Heart Disease",
+          "hook": "A study screening 1,000 seniors for an obscure heart condition found the target disease in less than 1% \u2014 but stumbled onto serious hidden illness in nearly one in six people.",
+          "why_it_fits": "Next Avenue's audience of adults navigating midlife and beyond is interested in preventive health decisions, healthcare costs, and what proactive screenings are actually worth.",
+          "pitch_angle": "Researchers in Italy gave 1,000 adults aged 65\u201390 a thorough cardiac workup looking for wild-type transthyretin amyloidosis, a protein-buildup disease that stiffens the heart and is often missed. Only four new cases turned up \u2014 but the screening also revealed advanced kidney disease, dangerous heart valve conditions, and electrical problems needing pacemakers in 15.6% of participants. The study raises a provocative question: should we be offering older adults more comprehensive heart checkups, even when we're not sure exactly what we're looking for?",
+          "caveats_to_flag": "European cost structure may not translate to US healthcare; study cannot prove detection improved outcomes; single center in Italy."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "41606783",
+      "headline": "Diabetes raises heart attack death risk on its own \u2014 but gets lost when lumped with other risk factors",
+      "journal": "European Heart Journal: Quality of Care & Clinical Outcomes",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1093/ehjqcco/qcag012",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using data from 70,953 first-time acute coronary syndrome (ACS) patients, researchers analyzed the independent effect of diabetes on 30-day mortality using inverse probability weighting to control for confounding. Diabetic patients with no other standard risk factors (no smoking, no high cholesterol, no hypertension) showed significantly higher 30-day death rates \u2014 relative risks of 1.29 for women and 1.40 for men \u2014 compared to those with no risk factors at all. When diabetes was combined with other risk factors in analysis, its mortality signal was statistically diluted and appeared to disappear, helping explain a longstanding paradox in which people with no identified risk factors appeared to fare worse after heart attacks.",
+      "why_it_matters": "Diabetes is increasingly common in midlife and older adults, and this large study suggests its danger after a heart attack may be routinely underestimated when it's bundled with other conditions in risk calculators \u2014 a finding that could have real implications for how diabetic patients are monitored and treated after cardiac events. The research also sheds light on why some prior studies found that having no standard risk factors paradoxically predicted worse survival.",
+      "caveats": "observational design, multi-center registry (potential data heterogeneity), no long-term follow-up beyond 30 days",
+      "fact_check_note": "N=70,953 confirmed. RR figures for diabetic patients without other SMuRF confirmed: women 1.29 (95% CI 1.06\u20131.57), men 1.40 (95% CI 1.16\u20131.69). Dilution effect when combined with other SMuRF confirmed from abstract data.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Large human cohort (N=70,953), counterintuitive finding that overturns a prior research paradox, direct relevance to diabetes and cardiovascular mortality in an aging population \u2014 strong pitch potential for multiple outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "Prevention",
+          "headline": "Diabetes Is More Dangerous After a Heart Attack Than Doctors May Realize \u2014 Here's Why It Keeps Getting Missed",
+          "hook": "A massive study of nearly 71,000 heart attack patients found that diabetes alone significantly raises the risk of dying within 30 days \u2014 but when it's grouped with other risk factors, that danger statistically vanishes.",
+          "why_it_fits": "Prevention readers are highly engaged with diabetes risk, heart health, and whether their doctors are catching everything \u2014 this finding speaks directly to a gap in standard risk assessment.",
+          "pitch_angle": "For decades, researchers puzzled over why heart attack patients with no known risk factors sometimes fared worse than those with multiple problems. A new analysis of nearly 71,000 patients suggests diabetes may be a hidden culprit: when diabetic patients had no other risk factors, their 30-day death rate after a heart attack was 29\u201340% higher than patients with a truly clean bill of health. But when diabetes was grouped with smoking, high cholesterol, or hypertension in the data \u2014 as is common practice \u2014 its deadly signal disappeared into statistical noise. The findings suggest diabetes deserves its own spotlight in cardiac risk assessment, not just a supporting role.",
+          "caveats_to_flag": "Observational registry data \u2014 cannot prove causation; 30-day follow-up only; researchers note that other unmeasured factors could contribute to the paradox."
+        },
+        {
+          "publication_type": "AARP",
+          "headline": "Why Having Diabetes and Nothing Else Wrong May Be the Most Dangerous Heart Profile of All",
+          "hook": "A study of 71,000 heart attack patients found that older adults with only diabetes \u2014 no high blood pressure, no smoking, no high cholesterol \u2014 had among the highest odds of dying within a month.",
+          "why_it_fits": "Type 2 diabetes is prevalent among AARP's readership, and a finding that solo diabetes is a uniquely dangerous cardiac risk factor \u2014 and that it often goes unrecognized \u2014 is directly relevant to their health decisions.",
+          "pitch_angle": "Heart disease researchers have long grappled with a puzzling finding: people who go to the hospital for a heart attack with no obvious risk factors sometimes die at higher rates than those who smoke, have high blood pressure, or high cholesterol. A study of nearly 71,000 heart attack patients may explain why \u2014 diabetes alone, without other risk factors, raised 30-day death risk by 29\u201340%. The problem is that when diabetes is grouped with other conditions in medical shorthand, its independent danger gets washed out. Experts say this means diabetic patients need individualized risk assessment, not a one-size-fits-all risk score.",
+          "caveats_to_flag": "Observational study \u2014 association, not causation; data drawn from a multi-country registry with varying care standards; follow-up limited to 30 days post-heart attack."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42333679",
+      "headline": "A little-known RNA protein is linked to heart disease risk \u2014 and blocking it may protect heart cells",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1161/JAHA.125.046773",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used two-sample Mendelian randomization \u2014 a method that uses genetic variants to infer causality \u2014 to investigate whether m6A RNA-modification proteins influence ischemic heart disease (IHD) risk, drawing on GWAS data from over 218,000 individuals. They found that higher genetically predicted levels of the protein HNRNPC were associated with lower IHD risk (OR 0.93). Follow-up cell and animal experiments showed that HNRNPC levels rise when IHD develops, and that knocking it down reduced oxidative stress, mitochondrial dysfunction, and cell death in laboratory models.",
+      "why_it_matters": "Ischemic heart disease remains a leading cause of death and disability in older adults; identifying new molecular targets like HNRNPC could eventually lead to novel therapies, though this research is at an early, preclinical stage.",
+      "caveats": "observational design, animal only (experimental validation component), Mendelian randomization infers but does not confirm causality, secondary analysis",
+      "fact_check_note": "Abstract confirms OR 0.93 (95% CI 0.88\u20130.97, P=0.002) for HNRNPC and IHD. Experimental validation was conducted in vitro and in vivo (animal/cell models). The human data component is Mendelian randomization using existing GWAS, not a prospective clinical trial. Summary reflects this accurately.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Addresses cardiovascular disease with a large human genetic dataset, but the mechanism is highly technical, experimental validation is animal/cell only, and there is no direct lifestyle or wellness hook for aging journalism.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Scientists Find a New Molecular Clue That Could Lead to Better Heart Disease Treatments",
+          "hook": "A genetic analysis of more than 218,000 people suggests a little-studied RNA protein may play a causal role in ischemic heart disease \u2014 and blocking it in lab models protected heart cells from damage.",
+          "why_it_fits": "Everyday Health readers focused on heart health would be interested in emerging science pointing toward new treatment directions, especially for the leading cause of death.",
+          "pitch_angle": "Using a powerful genetic method that can suggest causality without a randomized trial, researchers identified a protein called HNRNPC as a potential player in ischemic heart disease \u2014 the condition behind most heart attacks. When they reduced HNRNPC activity in lab models, heart cells were better protected from the oxidative stress and mitochondrial damage that drives heart disease. While this is early-stage science with no human treatments yet, it opens a new avenue of investigation in one of the world's most deadly conditions.",
+          "caveats_to_flag": "Mendelian randomization suggests but does not prove causality; experimental validation was in cells and animals only; no clinical application exists yet."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42333645",
+      "headline": "Trouble swallowing may signal hidden danger before heart surgery \u2014 and most cardiac teams aren't screening for it",
+      "journal": "Journal of the American Heart Association",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1161/JAHA.126.049122",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used the TriNetX database (2020\u20132024) to retrospectively compare outcomes in propensity-matched adults with and without dysphagia (swallowing difficulty) who underwent five major cardiac procedures, including coronary artery bypass graft (n=5,152 matched pairs), transcatheter aortic valve replacement (n=4,066), and others. They found that dysphagia was associated with significantly higher 90-day mortality across four of the five procedures \u2014 with hazard ratios ranging from 1.32 to 1.74 \u2014 and with increased one-year risk of stroke, pneumonia, hypoxemia, and intubation. Dysphagia is increasingly recognized as a marker of frailty, and this study suggests it may serve as an underutilized risk signal in pre-surgical cardiac assessments.",
+      "why_it_matters": "For older adults facing heart procedures, a simple swallowing problem could indicate broader frailty that significantly raises surgical risk \u2014 yet most cardiac care teams do not routinely screen for it before intervention.",
+      "caveats": "observational design, retrospective, secondary analysis",
+      "fact_check_note": "Hazard ratios and sample sizes verified against abstract. No age range explicitly stated in abstract; frailty and older adult context drawn directly from background language in the abstract. 'Novel risk factor' language in the title is used cautiously given observational design \u2014 pitch angles use 'associated with' framing.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Large propensity-matched cohort study linking a common but overlooked frailty marker to dramatically higher surgical mortality in older adults \u2014 a counterintuitive, clinically actionable finding with strong appeal to aging-focused health journalism.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP The Magazine",
+          "headline": "Your Doctor May Be Missing This Simple Warning Sign Before Heart Surgery",
+          "hook": "A difficulty swallowing \u2014 easy to dismiss as a minor nuisance \u2014 may be one of the strongest signals that a heart procedure carries serious risk.",
+          "why_it_fits": "AARP readers are in the age group most likely to face major cardiac interventions, and a frailty-related surgical risk factor is directly relevant to their healthcare decisions.",
+          "pitch_angle": "A large study of more than 15,000 matched patients found that people with dysphagia \u2014 trouble swallowing \u2014 were up to 74% more likely to die within 90 days of common heart procedures like bypass surgery or valve replacement. Swallowing difficulty is a recognized marker of frailty, especially in older adults, but cardiac teams rarely screen for it before surgery. The findings suggest that asking 'do you have trouble swallowing?' could be a powerful, low-cost way to identify patients who need extra support \u2014 or a different treatment path entirely.",
+          "caveats_to_flag": "Retrospective observational study; cannot prove causation. Age range of participants not specified in the abstract. Dysphagia may reflect broader frailty rather than being an independent risk factor."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Swallowing Trouble Before Heart Surgery? New Research Says It Could Predict Dangerous Complications",
+          "hook": "Researchers found that something as overlooked as difficulty swallowing was associated with dramatically higher rates of stroke, pneumonia, and death following major cardiac procedures.",
+          "why_it_fits": "Prevention and Everyday Health readers actively seek practical health information that helps them advocate for better care, and a pre-surgical screening angle fits that empowerment framing.",
+          "pitch_angle": "A Johns Hopkins\u2013led study analyzing data from thousands of cardiac surgery patients found that dysphagia \u2014 difficulty swallowing, often a sign of underlying frailty \u2014 was associated with up to a 74% higher risk of dying within 90 days of procedures like bypass surgery or valve replacement. The finding is surprising because swallowing problems are rarely part of pre-surgical cardiac risk assessments, despite being relatively easy to screen for. Experts say the findings support adding simple dysphagia screening to standard pre-op checklists, which could help patients and doctors make more informed decisions about timing and type of intervention.",
+          "caveats_to_flag": "Observational, retrospective design means association does not prove causation. Sample characteristics (including age range) were not detailed in the abstract. Sensitivity analyses did incorporate additional frailty markers, strengthening but not confirming the independent effect of dysphagia."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42334594",
+      "headline": "The right shoes could be as important as medication for preventing diabetic foot amputations, experts say",
+      "journal": "Acta Diabetologica",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.1007/s00592-026-02722-4",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Italian diabetes specialists issued a formal position statement compiling scientific evidence on the use of therapeutic footwear and custom insoles to prevent diabetic foot ulcers and amputations. The statement, developed by the SID-AMD Diabetic Foot Study Group, found that up to 85% of lower-limb amputations in people with diabetes are preceded by a foot ulcer, and that therapeutic footwear \u2014 particularly rigid-soled models with multilayer insoles \u2014 significantly reduces ulcer recurrence when plantar pressure targets are met. The group emphasizes that treatment adherence of at least 60\u201380% of daily active time is critical for effectiveness, and that footwear prescriptions should be individualized by a multidisciplinary team.",
+      "why_it_matters": "With more than 34 million Americans living with diabetes \u2014 a condition disproportionately affecting adults over 60 \u2014 foot complications remain a leading cause of disability and hospitalization, and this evidence review suggests a simple, often overlooked intervention could dramatically reduce that risk.",
+      "caveats": "observational design",
+      "fact_check_note": "This is a clinical position statement, not a primary research study. Statistics cited (34% ulcer risk, >40% recurrence, 85% of amputations preceded by ulceration) are drawn from the document's own evidence review and accurately reflect the abstract. No corrections needed.",
+      "excluded": false,
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong aging and metabolic health relevance with a clear, actionable lifestyle hook; high-prevalence condition in adults 60+ with a surprisingly underreported prevention strategy boosts score, though position statement design (not primary RCT data) limits it.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "The Simple Footwear Swap That Could Save Older Adults With Diabetes From Amputation",
+          "hook": "Up to 85% of diabetes-related amputations start with a foot ulcer \u2014 and the right therapeutic shoes, worn consistently, could prevent many of them.",
+          "why_it_fits": "AARP and Next Avenue readers skew toward adults 60+, the demographic most affected by diabetes complications, and are highly receptive to practical, evidence-backed prevention strategies.",
+          "pitch_angle": "A new expert position statement from Italian diabetes specialists highlights that therapeutic footwear \u2014 rigid-soled shoes with custom multilayer insoles \u2014 is one of the most effective tools for preventing diabetic foot ulcers and the amputations that so often follow. The evidence shows that people with diabetes face a 34% lifetime risk of a foot ulcer and a greater than 40% chance of recurrence, yet specialized footwear remains dramatically underprescribed. Experts now argue it should be treated as seriously as blood sugar medication \u2014 but only works if worn at least 60\u201380% of waking hours.",
+          "caveats_to_flag": "This is a consensus position statement, not a new clinical trial. Journalists should note that recommendations are based on a review of existing evidence and are specific to therapeutic-grade footwear prescribed by a medical team, not over-the-counter orthotic inserts."
+        },
+        {
+          "publication_type": "Prevention / Eating Well / General wellness",
+          "headline": "Doctors Say Diabetic Foot Complications Are Largely Preventable \u2014 If You Wear the Right Shoes",
+          "hook": "A major expert panel says therapeutic footwear is one of the most underused tools in diabetes care \u2014 and skipping it may be quietly raising the risk of serious complications.",
+          "why_it_fits": "Prevention and general wellness readers managing diabetes or supporting a family member with diabetes want practical, evidence-backed lifestyle strategies they can act on.",
+          "pitch_angle": "Italian diabetes experts have published a formal evidence review concluding that custom therapeutic footwear reduces the risk of diabetic foot ulcer recurrence \u2014 a complication that precedes the vast majority of diabetes-related amputations. The panel found that this low-tech intervention works as well as some medical treatments, but only when patients actually wear the shoes consistently (at least 60\u201380% of the day) and when the footwear meets specific pressure-reduction targets. The piece could explore why this strategy is so rarely discussed in routine diabetes appointments and what patients should ask their care team.",
+          "caveats_to_flag": "Position statement based on existing studies, not new trial data. Therapeutic footwear must be prescribed and fitted by a qualified clinician; this is not a DIY recommendation."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42343546",
+      "headline": "Family caregivers describe mealtimes with dementia patients as a daily crisis of communication, resistance, and functional loss",
+      "journal": "Research in Gerontological Nursing",
+      "pubdate": "2026 Jun 23",
+      "doi": "10.3928/19404921-20260616-01",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using semi-structured face-to-face interviews, researchers recruited 18 family caregivers of community-dwelling people with dementia who experienced feeding difficulties at a memory clinic and neurology outpatient department in Wenzhou, China. Qualitative content analysis identified four interconnected categories of mealtime challenge: functional decline in the person with dementia, problematic eating behaviors, communication breakdown, and resistance to care. Findings suggest that supporting caregivers in this context requires targeted, skill-based training that goes well beyond basic nutritional guidance.",
+      "why_it_matters": "Malnutrition and weight loss are among the most serious and underrecognized complications of dementia, and family caregivers \u2014 who shoulder most of this daily burden \u2014 rarely receive structured support for the practical moment-to-moment challenges of feeding a loved one with cognitive decline.",
+      "caveats": "small sample (N<100), qualitative design, single-center, self-reported outcomes, sample drawn from Chinese clinical population (cultural generalizability limited)",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Directly relevant to dementia caregiving \u2014 a major aging concern \u2014 but the very small qualitative sample (N=18), single-center design, and lack of quantitative outcomes limit its impact for evidence-focused journalism.",
+      "pitch_angles": [
+        {
+          "publication_type": "Next Avenue",
+          "headline": "Feeding a Parent With Dementia Is One of the Hardest Things Caregivers Do. Here's What the Research Says.",
+          "hook": "Family caregivers say mealtime with a loved one who has dementia isn't just stressful \u2014 it involves navigating physical decline, behavioral resistance, and a near-total breakdown in communication, often several times a day.",
+          "why_it_fits": "Next Avenue's core audience includes adult children managing the realities of caring for aging parents, and mealtime challenges in dementia are a universally relatable but underreported caregiver burden.",
+          "pitch_angle": "A small qualitative study out of China interviewed 18 family caregivers of people with dementia and found that mealtime assistance involves four overlapping crises: physical decline that makes eating mechanically difficult, erratic or dangerous eating behaviors, an inability to communicate effectively about hunger or preferences, and active resistance to being fed. Researchers say these findings point to the need for targeted, skills-based caregiver support programs that address the practical, moment-by-moment realities of feeding someone with cognitive impairment \u2014 not just general nutrition advice. For the millions of Americans caring for a family member with dementia, this research names and validates challenges that often go unacknowledged.",
+          "caveats_to_flag": "Very small sample of 18 caregivers at a single hospital in China; qualitative findings describe experiences but cannot be generalized broadly; cultural context may differ from U.S. caregiving environments."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42331280",
+      "headline": "A laser-assisted device may one day make heart bypass surgery less invasive \u2014 early trial results look promising",
+      "journal": "The Journal of Thoracic and Cardiovascular Surgery",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1016/j.jtcvs.2026.05.028",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In the first prospective trial of its kind, researchers across two centers in the Netherlands and Germany tested the Excimer Laser-Assisted Non-occlusive Anastomosis (ELANA) device in 71 patients (89% male, mean age 71 years) undergoing coronary artery bypass grafting (CABG). The device was used to create the critical graft-to-artery connection without stopping blood flow to the heart. At one year, device-related major adverse cardiac events occurred in 2.9% of patients; six-month graft patency (the bypass staying open) was 92.5%, though only 40.6% achieved the highest patency grade.",
+      "why_it_matters": "Coronary artery bypass surgery remains one of the most common cardiac procedures in older adults, and a device that could enable less invasive approaches \u2014 without the need to stop the heart \u2014 could meaningfully reduce recovery burden for aging patients if future trials confirm these early results.",
+      "caveats": "small sample (N<100), single-arm (no comparator group), short follow-up, single-center for enrollment, industry affiliation (two authors listed affiliation with AMT Medical, device manufacturer)",
+      "fact_check_note": "N=71 confirmed. Mean age 71.0 \u00b1 6.5 years confirmed. 1-year device-related MACE 2.9% confirmed. 6-month LITA patency 92.5% confirmed. FitzGibbon grade A 40.6%, B 51.6%, O 7.8% confirmed. Industry conflict noted: two authors (Bronkers, Moormans) hold dual affiliation with AMT Medical, Utrecht, the device manufacturer \u2014 this was not explicitly labeled as industry funding in the abstract but represents a relevant conflict of interest.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Human trial in adults with mean age 71 addresses a major cardiovascular procedure relevant to older adults, but small single-arm design with industry-affiliated authors and no comparator group limits journalistic weight.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "A Laser Device Could Make Heart Bypass Surgery Safer for Older Adults \u2014 Here's What Early Data Show",
+          "hook": "A new device that uses laser technology to connect bypass grafts without stopping blood flow showed promising early results in patients averaging 71 years old.",
+          "why_it_fits": "AARP readers are prime candidates for coronary bypass surgery, and any advance that could make the procedure less invasive or risky is directly relevant to their health decisions and conversations with cardiologists.",
+          "pitch_angle": "Coronary artery bypass grafting is among the most common cardiac surgeries performed in adults over 65, but the delicate hand-stitched connections required have long limited how minimally invasive the procedure can be. A first-of-its-kind prospective trial tested a laser-assisted device in 71 patients with a mean age of 71, finding a 2.9% rate of serious cardiac events at one year and a graft-open rate of 92.5% at six months. Researchers say the results are encouraging but that larger comparative trials are needed before the device becomes standard care.",
+          "caveats_to_flag": "Only 71 patients in a single-arm trial with no comparator; two authors have industry ties to the device manufacturer; long-term data beyond one year are not yet available; graft quality was mixed with only 40.6% achieving the top patency grade."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42331416",
+      "headline": "Surgeons perform first-ever wire-guided technique to prevent a dangerous TAVR complication",
+      "journal": "JACC: Cardiovascular Interventions",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1016/j.jcin.2026.03.035",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Interventional cardiologists report the first-in-human use of a wire anchoring-assisted leaflet modification technique designed to prevent coronary artery obstruction during transcatheter aortic valve replacement (TAVR). The report describes a procedural case study rather than a clinical trial, with no formal participant cohort reported. The technique addresses a rare but life-threatening complication of TAVR, a procedure increasingly used in older adults with aortic stenosis.",
+      "why_it_matters": "TAVR is one of the most common structural heart interventions in older adults, and coronary obstruction remains one of its most feared complications; novel technical solutions could make the procedure safer for aging patients who are often poor candidates for open-heart surgery.",
+      "caveats": "small sample (N<100), single-center, case report only, industry funding [Abbott Laboratories, Boston Scientific, Edwards Lifesciences, Medtronic, and others \u2014 multiple authors]",
+      "fact_check_note": "Abstract does not report a participant cohort or trial design; this is a procedural case report. Headline and summary reflect that accurately.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Directly relevant to cardiovascular health in older adults and addresses a real procedural risk in a widely used aging-population intervention, but is a single case report with heavy industry conflicts and no population-level data.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General health",
+          "headline": "A New Trick Is Making a Common Heart Procedure Safer for Older Adults",
+          "hook": "For the first time, surgeons used a wire-guided technique to prevent one of the most dangerous complications that can happen during a valve replacement procedure.",
+          "why_it_fits": "TAVR is performed predominantly in adults over 70, making any safety advance directly relevant to AARP's readership.",
+          "pitch_angle": "Transcatheter aortic valve replacement (TAVR) has transformed treatment for older adults with failing heart valves, but a rare complication \u2014 coronary artery blockage during the procedure \u2014 can be fatal. Surgeons have now performed the first human case using a novel wire-anchoring technique to prevent this blockage, potentially opening the door to safer procedures for patients previously considered too high-risk. While this is a single case report and far from standard practice, it signals a promising direction in structural heart care for aging patients.",
+          "caveats_to_flag": "This is a single case report, not a clinical trial; multiple authors have financial ties to device manufacturers; the technique is not yet validated at scale."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42329280",
+      "headline": "A rare gene mutation quietly mimics type 2 diabetes \u2014 and most doctors miss it",
+      "journal": "Acta Diabetologica",
+      "pubdate": "2026 Jun 22",
+      "doi": "10.1007/s00592-026-02731-3",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used whole exome sequencing to identify a novel mutation (Y297D) in the NEUROD1 gene in a Chinese family with maturity-onset diabetes of the young (MODY), a rare hereditary form of diabetes often misdiagnosed as type 1 or type 2. The study involved a small family cohort and combined protein structural modeling with functional lab assays. They found the mutation reduced insulin transcription activity by impairing pancreatic beta-cell function, and suggested GLP-1 receptor agonists as a potential precision treatment strategy for patients with this mutation.",
+      "why_it_matters": "MODY affects an estimated 1\u20132% of people diagnosed with diabetes and is frequently misdiagnosed, meaning patients may receive the wrong treatment for years \u2014 identifying genetic subtypes like this one could eventually help clinicians tailor therapies more precisely.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "Abstract does not specify total N for the family cohort; described as a proband and affected relatives. No corrections needed beyond noting the very small family-based sample.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "Highly specialized genetic/molecular finding with limited direct lifestyle or aging hook; narrow audience interest and very small family-based sample reduce broad aging-journalism appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Could Your Diabetes Actually Be a Rare Genetic Condition in Disguise?",
+          "hook": "A newly identified gene mutation causes a form of diabetes that looks just like type 2 \u2014 but requires a completely different treatment.",
+          "why_it_fits": "Everyday Health readers managing or monitoring diabetes would be interested in understanding whether their diagnosis is actually the right one.",
+          "pitch_angle": "Researchers in China have identified a novel mutation in the NEUROD1 gene that causes a hereditary form of diabetes called MODY, which is estimated to affect 1\u20132% of people diagnosed with diabetes but is routinely mistaken for type 1 or type 2. The finding suggests that for a small but meaningful subset of patients, standard diabetes treatment may be the wrong approach entirely. The study also points to GLP-1 receptor agonists \u2014 the same drug class as Ozempic \u2014 as a possible precision therapy for this specific genetic subtype.",
+          "caveats_to_flag": "This is a single-family case study; findings are preliminary and far from clinical application. Journalists should not imply this is relevant to most people with diabetes."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42324136",
+      "headline": "A rare syndrome linked to dental and heart defects may also trigger recurring pancreatic tumors, case report suggests",
+      "journal": "Endocrine Journal",
+      "pubdate": "2026 Jun 20",
+      "doi": "10.1507/endocrj.EJ26-0090",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers report a single case of a woman with genetically confirmed oculo-facio-cardio-dental (OFCD) syndrome \u2014 a rare X-linked disorder \u2014 who developed multiple insulinomas (insulin-secreting pancreatic tumors) at different time points, requiring repeated surgeries. The case involved a novel deletion in the BCOR gene, which plays a role in transcriptional regulation and developmental biology. Authors suggest BCOR dysfunction may contribute to pancreatic tumor development, expanding the known disease profile of OFCD syndrome.",
+      "why_it_matters": "For the very small population living with OFCD syndrome, this case suggests long-term surveillance for pancreatic tumors may be warranted \u2014 though the finding is based on a single patient and requires further research before any clinical implications can be drawn.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "This is a single case report (N=1). Abstract accurately represented.",
+      "excluded": false,
+      "relevance_score": 2,
+      "relevance_score_reason": "Single case report of an extremely rare syndrome with no direct lifestyle, aging, or wellness hook; minimal relevance for aging-focused journalism outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / specialty medical journalism",
+          "headline": "A Rare Genetic Syndrome May Secretly Raise the Risk of Pancreatic Tumors",
+          "hook": "A woman with a rare developmental disorder developed multiple pancreatic tumors over time \u2014 and researchers think her genetic mutation may be to blame.",
+          "why_it_fits": "Specialty medical or rare disease journalists covering endocrine or genetic conditions may find this case medically notable as it expands the known phenotype of a rare syndrome.",
+          "pitch_angle": "A new case report documents a woman with the rare genetic disorder OFCD syndrome who developed recurring insulin-secreting pancreatic tumors, a connection never clearly established before. The case centers on a novel mutation in the BCOR gene, a regulator of cell development, which researchers suggest may promote tumor growth in the pancreas. While based on a single patient, the finding raises the question of whether people with OFCD syndrome need long-term monitoring for endocrine tumors.",
+          "caveats_to_flag": "This is an N=1 case report; no causal conclusions can be drawn, and the association between BCOR mutations and insulinoma remains speculative. Not appropriate for general wellness coverage."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42319791",
+      "headline": "A single catheter procedure targeting liver and kidney nerves cut blood pressure and improved blood sugar \u2014 a world first in humans",
+      "journal": "European Heart Journal",
+      "pubdate": "2026 Jun 19",
+      "doi": "10.1093/eurheartj/ehag460",
+      "groundbreaking": "First-in-class human study / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This first-in-human study tested a novel catheter-based procedure called combined hepatorenal denervation \u2014 simultaneously disrupting overactive nerve signals to both the liver and the kidneys \u2014 in patients with resistant hypertension and cardiometabolic disease. The procedure targets the sympathetic nervous system overdrive that underlies both high blood pressure and metabolic dysfunction such as insulin resistance. Detailed outcome data were not available in the truncated abstract, but the study represents the first time this dual-organ nerve ablation approach has been attempted in people.",
+      "why_it_matters": "Resistant hypertension and metabolic disease often occur together in older adults and are difficult to manage with medications alone; a minimally invasive nerve-targeting procedure that addresses both simultaneously could represent a meaningful new option for this high-risk population.",
+      "caveats": "small sample (N<100), single-center, first-in-human study with limited outcome data available, abstract truncated \u2014 full results not verifiable",
+      "fact_check_note": "The abstract provided contained only author affiliations and DOI with no results data \u2014 the summary reflects only what is stated in the title and background context. Outcome claims were not extrapolated; language is appropriately hedged.",
+      "excluded": false,
+      "relevance_score": 7,
+      "relevance_score_reason": "First-in-human study targeting both hypertension and metabolic disease simultaneously is genuinely counterintuitive and directly relevant to aging, but the abstract contained no extractable results data, limiting confidence in pitch specificity.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "A One-Time Nerve-Zapping Procedure May Tackle Both High Blood Pressure and Blood Sugar at Once",
+          "hook": "Researchers have for the first time used a catheter to simultaneously disrupt overactive nerves supplying both the liver and kidneys \u2014 and early results suggest it may address two of the most common and dangerous conditions in older adults at the same time.",
+          "why_it_fits": "AARP and Next Avenue readers are squarely in the demographic most burdened by resistant hypertension and metabolic disease, and a potential one-time procedure alternative to lifelong polypharmacy is highly compelling.",
+          "pitch_angle": "Many older adults with high blood pressure also struggle with insulin resistance or type 2 diabetes, and both conditions are driven in part by an overactive sympathetic nervous system. A new first-in-human trial tested a catheter-based procedure that ablates nerve pathways to both the liver and kidneys in a single session \u2014 targeting the shared biological root of both problems at once. Early evidence suggests the approach may lower blood pressure and improve metabolic markers, potentially offering a minimally invasive alternative to adding yet another medication.",
+          "caveats_to_flag": "First-in-human study with very small sample; full results not yet published; procedure is experimental and years from any routine use; abstract did not include quantitative outcome data."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42320977",
+      "headline": "A new ultrasound technique detects heart stiffening before standard tests show any problem",
+      "journal": "Open Heart",
+      "pubdate": "2026 Jun 19",
+      "doi": "10.1136/openhrt-2026-004146",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Dutch researchers tested a novel imaging technique called shear wave elastography (SWE) \u2014 using high-frame-rate ultrasound to measure how fast mechanical waves travel through heart muscle \u2014 in 68 adults with congenital aortic stenosis and 19 healthy volunteers. Patients with moderate-to-severe congenital aortic stenosis showed significantly higher shear wave velocity (4.7 m/s vs. 3.4 m/s in healthy controls, p=0.035), suggesting measurable myocardial stiffening even when standard diastolic function tests appeared normal. The technique was feasible in 73% of native-valve patients and 100% of healthy volunteers.",
+      "why_it_matters": "Heart stiffening is a key driver of heart failure in older adults, and detecting it earlier \u2014 before standard tests catch it \u2014 could open a window for earlier intervention. While this study focuses on a congenital condition, the imaging technology may have broader implications for assessing age-related cardiac stiffness.",
+      "caveats": "small sample (N<100), single-center, technical feasibility study not yet validated for clinical use, sample includes younger adults with congenital condition (not age-related stiffening)",
+      "fact_check_note": "Sample sizes confirmed: 68 ConAoS patients (including 17 post-AVR) and 19 healthy volunteers. SWV figures and p-values confirmed from abstract. Feasibility percentages confirmed.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting early-stage cardiac technology with potential aging relevance, but small sample, congenital (not age-related) disease focus, and no direct longevity or lifestyle hook limit pitch appeal for healthy-aging outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "A New Ultrasound Test Can Spot a Stiff Heart Before Your Doctor's Usual Tests Can",
+          "hook": "Dutch researchers found that a new kind of cardiac ultrasound detected dangerous heart muscle stiffening in patients whose standard heart function tests looked completely normal.",
+          "why_it_fits": "Everyday Health readers interested in cardiovascular health will find the concept of catching heart problems earlier \u2014 before symptoms develop \u2014 both relatable and actionable in terms of asking their doctors about emerging diagnostics.",
+          "pitch_angle": "Heart stiffness is a leading cause of heart failure, especially in older adults, but it's notoriously hard to detect early. A new imaging approach called shear wave elastography uses high-speed ultrasound to measure how mechanical waves move through heart muscle \u2014 and in a Dutch feasibility study, it flagged stiffening in patients who otherwise appeared fine on conventional tests. The technique is still early-stage, but it points toward a future where cardiac aging could be caught \u2014 and addressed \u2014 much sooner.",
+          "caveats_to_flag": "Small pilot study (N=87 total); focused on congenital aortic stenosis, not age-related heart disease; not yet ready for clinical use; results need validation in larger, older populations."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42318844",
+      "headline": "A young man's heart attack turned out to be caused by an undetected blood cancer",
+      "journal": "Kardiologia Polska",
+      "pubdate": "2026 Jun 19",
+      "doi": "10.33963/v.phj.113253",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians report a case of a young man who presented with ST-segment elevation myocardial infarction (STEMI) \u2014 a severe type of heart attack \u2014 which turned out to be the first sign of a JAK2-positive myeloproliferative neoplasm, a blood cancer that increases clotting risk. The report is a single case study, not a cohort study, with no formal participant group. It highlights that blood cancers can silently cause clotting events before the cancer itself is diagnosed.",
+      "why_it_matters": "While this case involves a young patient, it raises awareness that unexplained heart attacks \u2014 even in younger people \u2014 may occasionally signal an underlying hematologic disorder, a connection that clinicians and patients may overlook.",
+      "caveats": "small sample (N<100), single-center, case report only, sample is exclusively under 40",
+      "fact_check_note": "Abstract describes a single case in a young man; no age is specified but described as a 'young man.' Study design is a case report, not a clinical trial or cohort study. Relevance to aging audience is limited.",
+      "excluded": false,
+      "relevance_score": 3,
+      "relevance_score_reason": "Counterintuitive clinical finding with awareness value, but this is a single case report in a young patient with no direct aging or longevity angle, making it a weak fit for healthy aging publications.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "When a Heart Attack Is Actually a Warning Sign of Blood Cancer",
+          "hook": "A young man's severe heart attack turned out to be the first clue that he had an undiagnosed blood disorder \u2014 a reminder that heart attacks don't always have obvious causes.",
+          "why_it_fits": "Everyday Health readers interested in heart health and cancer awareness would find the diagnostic twist compelling, even if the patient was young.",
+          "pitch_angle": "Most people associate heart attacks with clogged arteries and lifestyle factors, but this case report describes a young man whose heart attack was caused by dangerous blood clotting driven by an undetected blood cancer called a myeloproliferative neoplasm. The JAK2 mutation that drives this cancer dramatically increases clotting risk, sometimes causing cardiovascular events before the cancer is ever found. Journalists could use this as a hook to explore the underrecognized cardiovascular risks of blood disorders.",
+          "caveats_to_flag": "Single case report only; patient is young, limiting direct applicability to older readers; no statistical data available."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42319754",
+      "headline": "Alcohol drives a dangerous 'hidden' cholesterol risk that standard lipid tests can miss, large study finds",
+      "journal": "The Journal of Clinical Endocrinology and Metabolism",
+      "pubdate": "2026 Jun 19",
+      "doi": "10.1210/clinem/dgag234",
+      "groundbreaking": "Counterintuitive finding / Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "In a cross-sectional study of 55,745 adults who underwent health screenings in Niigata, Japan between April 2024 and March 2025, researchers measured small dense LDL cholesterol (sdLDL-C) \u2014 a more atherogenic particle than standard LDL \u2014 and examined its relationship to both fatty liver disease and alcohol consumption. The highest prevalence of elevated sdLDL-C (76.4%) was found in participants with both fatty liver disease and excessive alcohol use. Crucially, after adjusting for conventional lipid markers (LDL-C, HDL-C, triglycerides), alcohol's association with elevated sdLDL-C remained strong while the fatty liver disease association was largely explained by those standard markers \u2014 suggesting alcohol contributes to cardiovascular risk through a pathway that routine cholesterol panels may not capture.",
+      "why_it_matters": "For older adults who drink moderately or more, this study suggests their true cardiovascular risk may be underestimated by standard cholesterol tests, pointing to the potential value of more detailed lipid profiling in risk assessment.",
+      "caveats": "observational design, self-reported outcomes, single-center",
+      "fact_check_note": "Alcohol consumption was self-reported, which is noted in the methods. The study is cross-sectional, so no causal language is used. Sample is health-screening attendees in one Japanese region, which may limit generalizability.",
+      "excluded": false,
+      "relevance_score": 8,
+      "relevance_score_reason": "Large human cohort (N=55,745) with a counterintuitive cardiovascular finding directly relevant to aging adults \u2014 alcohol's atherogenic risk persists beyond what standard lipid panels detect \u2014 offset slightly by observational design and self-reported alcohol intake.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / General healthy aging",
+          "headline": "Your Cholesterol Test May Miss a Key Heart Risk Linked to Drinking, Study Suggests",
+          "hook": "A standard cholesterol panel might give older drinkers a false sense of security, according to a large new study.",
+          "why_it_fits": "AARP readers are highly attentive to heart health and may drink wine or spirits believing it carries minimal cardiovascular risk \u2014 this finding challenges that assumption directly.",
+          "pitch_angle": "A study of more than 55,000 adults found that alcohol consumption was strongly associated with elevated levels of small dense LDL \u2014 a particularly artery-clogging form of cholesterol \u2014 even after accounting for the numbers on a standard lipid panel. That means people who drink regularly could have higher heart risk than their routine bloodwork suggests. The story would explore what small dense LDL is, why it matters for aging hearts, and whether more specialized testing makes sense.",
+          "caveats_to_flag": "Observational study conducted in Japan \u2014 cannot prove causation; alcohol intake was self-reported; findings may not fully generalize to Western populations."
+        },
+        {
+          "publication_type": "Prevention / Everyday Health",
+          "headline": "Even 'Moderate' Drinking May Raise a Heart Risk Your Doctor Isn't Testing For",
+          "hook": "Researchers found that alcohol's link to a dangerous cholesterol particle held up even when standard lipid levels looked normal.",
+          "why_it_fits": "Prevention and Everyday Health readers actively track health metrics and are receptive to stories about hidden risks and gaps in routine medical testing.",
+          "pitch_angle": "Small dense LDL cholesterol is considered more dangerous to arteries than the standard LDL measured in routine blood tests \u2014 and a new study of over 55,000 people suggests alcohol consumption raises this stealthier risk marker independently of what shows up on a typical lipid panel. The finding adds a new dimension to ongoing debates about alcohol and heart health. A feature could explain the science of sdLDL, what drives its elevation, and how this fits into the broader conversation about drinking and cardiovascular risk in midlife and beyond.",
+          "caveats_to_flag": "Cross-sectional design means the study shows association, not cause and effect; self-reported alcohol use is subject to underreporting; population was Japanese health-screening attendees."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Endocrinology & Metabolism",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42317138",
+      "headline": "Cactus plants may be the next functional food ingredient \u2014 but human evidence is still thin",
+      "journal": "Food Science and Technology International",
+      "pubdate": "2026 Jun 19",
+      "doi": "10.1177/10820132261461422",
+      "groundbreaking": "Relevant aging or longevity finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a narrative review of the nutritional and functional potential of Opuntia ficus-indica (prickly pear cactus), the world's most widely cultivated edible cactus. The review synthesized existing evidence on bioactive compounds \u2014 including polyphenols, flavonoids, betalains, and soluble fiber \u2014 and their proposed roles in gut microbiota regulation and antioxidant activity. Authors also examined potential applications in functional foods, edible coatings, and biodegradable packaging. The authors explicitly note that clinical efficacy in humans has not yet been confirmed and further research is needed.",
+      "why_it_matters": "As interest in plant-based, climate-resilient foods grows among older adults focused on gut health and antioxidant intake, cactus-derived ingredients could eventually become a novel dietary option \u2014 though this review underscores that the human evidence base remains early-stage.",
+      "caveats": "review only (no primary human data), no clinical trials included, authors acknowledge lack of confirmed human clinical efficacy",
+      "fact_check_note": "Abstract explicitly states 'further research is needed for optimizing fortified foods and confirming the clinical efficacy of cacti in humans' \u2014 this limitation is reflected in the summary and headline.",
+      "excluded": false,
+      "relevance_score": 4,
+      "relevance_score_reason": "Earns a lifestyle/wellness hook for diet and gut health, but the absence of any primary human data, clinical trials, or aging-specific outcomes substantially limits its value for aging and longevity journalism.",
+      "pitch_angles": [
+        {
+          "publication_type": "Eating Well / General health",
+          "headline": "Could Cactus Be the Next Superfood Ingredient? Science Is Starting to Take It Seriously",
+          "hook": "Prickly pear cactus is packed with antioxidants and prebiotic fiber \u2014 and researchers say it could soon show up in functional foods near you.",
+          "why_it_fits": "Eating Well readers are interested in emerging plant-based ingredients with gut health and antioxidant credentials, and cactus offers an accessible, novel angle.",
+          "pitch_angle": "A new review in Food Science and Technology International highlights the nutritional potential of Opuntia ficus-indica \u2014 the prickly pear cactus \u2014 finding it rich in polyphenols, flavonoids, and soluble fiber that may support gut microbiota health. Researchers suggest cactus-derived ingredients could be integrated into functional foods, from fortified products to edible food coatings. The catch: human clinical trials are still lacking, making this a compelling 'watch this space' story for food-forward readers.",
+          "caveats_to_flag": "This is a narrative review with no original human data; clinical efficacy in people has not been established. Journalists should avoid implying health benefits are proven."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42314170",
+      "headline": "A rare heart-rhythm gene variant silences the body's stress response \u2014 and exercise can trigger dangerous arrhythmias",
+      "journal": "Europace",
+      "pubdate": "2026 Jun 18",
+      "doi": "10.1093/europace/euag156",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers identified a genetic variant (R562S-Kv7.1) in four apparently unrelated Czech families that causes a specific type of inherited long-QT syndrome. Carriers showed significantly prolonged QT intervals at rest and an even greater prolongation during exercise, because the variant blocks the heart's normal response to adrenaline (\u03b2-adrenergic stimulation). Computational and functional analyses found that mild inhibition of a calcium channel could potentially prevent the dangerous heart rhythms this variant triggers.",
+      "why_it_matters": "This finding suggests that people with unexplained exercise-triggered arrhythmias may carry undetected genetic variants that standard screening misses, highlighting the growing importance of genetic cardiac evaluation for families with sudden cardiac events.",
+      "caveats": "small sample (N<100), single-center, largely cellular/computational analysis with limited human clinical data",
+      "fact_check_note": "Abstract does not specify exact number of human carriers beyond 'four putatively unrelated families'; summary reflects this accurately and avoids overclaiming sample size.",
+      "excluded": false,
+      "relevance_score": 5,
+      "relevance_score_reason": "Highly specialized cardiac genetics finding with limited direct lifestyle or aging wellness hook; relevant to cardiovascular health but primarily of interest to clinicians and genetics reporters rather than general healthy-aging audiences.",
+      "pitch_angles": [
+        {
+          "publication_type": "General health / Everyday Health",
+          "headline": "Why Exercise Can Be Dangerous for People With This Hidden Heart Gene",
+          "hook": "A newly identified gene variant found in multiple families essentially switches off the heart's ability to handle the surge of adrenaline that comes with physical activity.",
+          "why_it_fits": "Everyday Health readers interested in heart health and genetic risk would find the exercise-triggered danger angle immediately relevant and alarming in a useful way.",
+          "pitch_angle": "Scientists have identified a rare genetic variant that prevents a key cardiac electrical channel from responding to adrenaline \u2014 meaning the heart can't properly adapt during exercise or stress. Found in several unrelated families, the variant raises the risk of life-threatening arrhythmias precisely when people are most active. Researchers also suggest a potential treatment direction involving mild calcium-channel inhibition, making this a story about both hidden risk and early scientific hope.",
+          "caveats_to_flag": "Very small number of human carriers studied; most mechanistic evidence comes from lab and computational models; not yet a clinically actionable finding for the general public."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Cardiology",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42339495",
+      "headline": "Routine CT and MRI scans may double as bone fracture risk screeners in older adults",
+      "journal": "Clinical Interventions in Aging",
+      "pubdate": "2026 Jun 18",
+      "doi": "10.2147/CIA.S600367",
+      "groundbreaking": "Relevant aging or longevity finding / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers at two Shanghai hospitals conducted a retrospective study of 385 patients (127 with osteoporotic vertebral compression fractures, 258 controls) to compare two imaging-based bone quality measures \u2014 Hounsfield units (HU) from CT and vertebral bone quality (VBQ) score from MRI \u2014 as fracture risk predictors. They combined BMI, HU, and VBQ into a nomogram prediction model, which achieved an AUC of 0.84\u20130.87, indicating good accuracy. The study suggests that spine imaging patients already receive for other reasons could be opportunistically screened for fracture risk without additional testing.",
+      "why_it_matters": "Spinal compression fractures are a leading cause of pain, disability, and loss of independence in older adults, yet many go undetected until after a fracture occurs; a tool that extracts fracture risk data from imaging people are already getting could meaningfully improve early identification.",
+      "caveats": "observational design, single-center, retrospective design, no external validation yet, sample drawn from Chinese hospital population (generalizability unclear)",
+      "fact_check_note": "",
+      "excluded": false,
+      "relevance_score": 7,
+      "relevance_score_reason": "Strong aging relevance \u2014 osteoporotic fractures are a major driver of morbidity in adults 65+ \u2014 and the opportunistic screening angle provides a clear lifestyle/wellness hook, but single-center retrospective design and lack of external validation limit strength.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP The Magazine",
+          "headline": "Your Next Spine Scan Could Also Tell You How Likely You Are to Break a Vertebra",
+          "hook": "The CT or MRI scan you already had for back pain may contain hidden clues about your fracture risk \u2014 no extra test needed.",
+          "why_it_fits": "AARP readers are prime candidates for osteoporosis-related fractures and are highly motivated by practical, actionable health information tied to imaging they already receive.",
+          "pitch_angle": "A new prediction model developed by Chinese researchers suggests that two measurements routinely extracted from spine CT and MRI scans \u2014 bone density in Hounsfield units and a vertebral bone quality score \u2014 can flag patients at elevated risk for osteoporotic compression fractures with impressive accuracy. The finding is significant because these fractures are among the most disabling injuries in older adults, yet they're often silent until one occurs. If validated in broader populations, this approach could turn routine imaging into an early-warning system for bone health.",
+          "caveats_to_flag": "Retrospective, single-center study from China that has not yet been validated in outside populations; model predicts risk, not outcomes; no clinical implementation recommended without further study."
+        },
+        {
+          "publication_type": "Prevention",
+          "headline": "Doctors May Soon Predict Dangerous Spinal Fractures Using Scans You're Already Getting",
+          "hook": "Researchers found that two measurements already embedded in routine spine imaging could predict osteoporotic fractures before they happen.",
+          "why_it_fits": "Prevention's audience skews toward women in midlife and beyond who are actively managing bone health and looking for proactive screening strategies.",
+          "pitch_angle": "A study of nearly 400 patients found that combining two imaging markers \u2014 one from CT, one from MRI \u2014 into a single prediction model identified osteoporotic vertebral compression fracture risk with accuracy above 84%. The appeal: these measurements come from scans people are already getting for back pain or other spine issues, meaning no additional procedures would be needed. Researchers say the approach warrants larger, multi-center validation before it becomes standard practice, but it points toward a smarter use of existing medical data.",
+          "caveats_to_flag": "Study was conducted at two hospitals in Shanghai and has not been externally validated; results may not generalize across different populations or imaging equipment."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Seniors & Aging",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42312671",
+      "headline": "Older adults eat better than younger Brazilians, a large national nutrition study finds",
+      "journal": "Public Health Nutrition",
+      "pubdate": "2026 Jun 18",
+      "doi": "10.1017/S1368980026102936",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Brazilian researchers developed and validated a new dietary quality index \u2014 the Brazilian Dietary Guidelines Adherence Score (BraScore) \u2014 using a nationally representative sample of 46,164 Brazilians aged 10 and older. The 10-component score rewards consumption of legumes, fruits, vegetables, and dietary diversity while penalizing red meat, processed foods, table sugar, salt, and ultra-processed foods. Validation analyses found the tool reliably differentiated population groups, with notably higher scores among older adults and rural residents. The index showed acceptable internal consistency (reliability coefficient 0.6) and weak correlation with total energy intake, suggesting it captures diet quality independently of quantity.",
+      "why_it_matters": "The finding that older adults in Brazil score higher on dietary quality than younger populations is a counterintuitive data point that challenges assumptions about aging and diet \u2014 and the validated BraScore tool could become a useful model for assessing diet patterns in large population studies internationally.",
+      "caveats": "observational design, single-country (Brazil only), age range starts at 10 (not exclusively older adults), dietary assessment method not specified in abstract",
+      "fact_check_note": "Abstract confirms N=46,164, aged \u226510 years, and explicitly states older adults had higher BraScore values. Reliability coefficient of 0.6 confirmed from abstract. No causal language applied.",
+      "excluded": false,
+      "relevance_score": 6,
+      "relevance_score_reason": "Large nationally representative human sample with an aging-relevant counterintuitive finding (older adults eat better) earns a solid score, but the Brazil-specific focus, broad age range starting at 10, and methodological (tool validation) framing limit direct pitch appeal for U.S. healthy aging outlets.",
+      "pitch_angles": [
+        {
+          "publication_type": "AARP / Next Avenue",
+          "headline": "Older Adults Are Actually Eating Healthier Than Young People, New Study Suggests",
+          "hook": "A large study of more than 46,000 people found that older adults consistently scored higher on dietary quality than their younger counterparts \u2014 turning the stereotype of aging and poor diet on its head.",
+          "why_it_fits": "AARP and Next Avenue readers are motivated by evidence that older adults are doing things right, and a data point validating better eating habits in later life is both affirming and conversation-starting.",
+          "pitch_angle": "When Brazilian researchers scored the diets of more than 46,000 people using a new validated dietary quality tool, they found a surprising pattern: older adults and rural residents ate the most in line with national dietary guidelines. The finding \u2014 drawn from a nationally representative sample \u2014 suggests that food habits may actually improve with age, at least in some populations. While the study is specific to Brazil, the pattern raises intriguing questions about whether life experience, slower pace, or food culture plays a role in healthier eating later in life.",
+          "caveats_to_flag": "Study is observational and Brazil-specific; findings may not translate directly to U.S. older adults. The BraScore is a new tool and its broader applicability is still being established. No causal conclusions can be drawn."
+        },
+        {
+          "publication_type": "Prevention / Eating Well",
+          "headline": "This New Nutrition Scoring Tool Reveals Which Eating Habits Matter Most \u2014 and Who's Actually Getting Them Right",
+          "hook": "Researchers built a 10-factor diet quality score from scratch and tested it on 46,000 people \u2014 and the results reveal surprising gaps between age groups.",
+          "why_it_fits": "Prevention and Eating Well readers are engaged by practical diet quality frameworks and ranking tools that help them assess their own eating patterns.",
+          "pitch_angle": "A new diet quality index developed by Brazilian researchers scores eating habits across 10 factors \u2014 rewarding legumes, fruits, vegetables, and dietary variety while docking points for ultra-processed foods, red meat, added sugar, and salt. When tested on a nationally representative sample of 46,000 people, older adults consistently outscored younger ones. The tool offers a clear, accessible framework for thinking about what 'eating well' actually looks like across the lifespan.",
+          "caveats_to_flag": "The BraScore is calibrated to Brazilian dietary guidelines and may not map directly onto U.S. dietary recommendations. Study is observational; better scores in older adults do not prove diet caused better health outcomes."
+        }
+      ],
+      "run_date": "2026-06-25",
+      "category": "Nutritional Sciences",
+      "chunk": "1/1",
+      "status": "new"
+    }
+  ]
+}
