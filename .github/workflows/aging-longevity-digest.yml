@@ -81,6 +81,8 @@ jobs:
           TOPIC_FOCUS:       ""
           FILTER_CATEGORY:   ${{ github.event.inputs.category }}
           DASHBOARD_URL:     ${{ secrets.DASHBOARD_URL }}
+          SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY:      ${{ secrets.SUPABASE_KEY }}
         run: python scripts/aging_longevity_digest.py
 
       - name: Upload results artifact
