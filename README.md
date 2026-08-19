@@ -77,8 +77,9 @@ Add these in **Settings → Secrets and variables → Actions**:
 |---|---|
 | `ANTHROPIC_API_KEY` | Anthropic API key (`sk-ant-...`) |
 | `SERPAPI_KEY` | SerpAPI key for Google News filtering |
-| `RESEND_API_KEY` | Resend API key (`re_...`) for email delivery |
-| `DASHBOARD_URL` | Full URL of your GitHub Pages dashboard |
+| `SUPABASE_URL` | Supabase project URL (dashboard save/delete personalization) |
+| `SUPABASE_KEY` | Supabase API key (read-only) |
+| `DASHBOARD_REPO_TOKEN` | Token with push access to the shared `research-digest-dashboard` repo |
 
 ---
 
