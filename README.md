@@ -21,7 +21,7 @@ A GitHub Actions workflow that searches a curated list of aging, longevity, nutr
 
 Features:
 - Card view per study with headline, summary, caveats, fact-check notes
-- Expandable pitch angles section (one block per publication type — AARP, Prevention, Next Avenue, Eating Well, etc.)
+- Expandable pitch angles section (one block per publication type — AARP The Magazine, Prevention, Next Avenue, EatingWell, Everyday Health, Health.com, Verywell Health, Women's Health Magazine, Sixty and Me, Woman's World, First for Women)
 - Filter by category, groundbreaking type, status, and date range
 - Search across all study text and pitches
 - Status tracking (New / Saved / Pitched / Passed) saved to localStorage
@@ -157,5 +157,5 @@ Each study card shows:
 - **Why it matters** — real-world significance for healthy aging
 - **Caveats** — limitations flagged automatically
 - **Fact-check note** — corrections made during the Claude pass
-- **Pitch angles** — one expandable block per publication type (AARP / Prevention / Next Avenue / Eating Well / General health)
+- **Pitch angles** — one expandable block per publication type (AARP The Magazine, Prevention, Next Avenue, EatingWell, Everyday Health, Health.com, Verywell Health, Women's Health Magazine, Sixty and Me, Woman's World, First for Women)
 - **Status** — New / Saved / Pitched / Passed (tracked in your browser)

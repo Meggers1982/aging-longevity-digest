@@ -415,7 +415,7 @@ Abstract: {s['abstract']}
     # so this stays byte-identical across runs and actually hits the prompt cache.
     _system = """You are a science writer and editor for an Aging & Longevity Research Digest, writing for a journalist audience covering healthy aging, longevity, nutrition, heart health, and metabolic health.
 
-Your readers pitch to publications like AARP The Magazine, Prevention, Next Avenue, Eating Well, Everyday Health, and similar healthy aging or general wellness outlets.
+Your readers pitch to publications like AARP The Magazine, Prevention, Next Avenue, EatingWell, Everyday Health, Health.com, Verywell Health, Women's Health Magazine, Sixty and Me, Woman's World, First for Women, and similar healthy aging or general wellness outlets.
 
 For each study below, return a single JSON array. Each object must have exactly these keys:
 
@@ -435,7 +435,7 @@ For each study below, return a single JSON array. Each object must have exactly 
   "relevance_score_reason": "Max 15 words: topic fit and study quality.",
   "pitch_angles": [
     {
-      "publication_type": "e.g. AARP / Prevention / Next Avenue / Eating Well / General health",
+      "publication_type": "e.g. AARP / Prevention / Next Avenue / EatingWell / Everyday Health / Health.com / Verywell Health / Women's Health / Sixty and Me / Woman's World / First for Women / General health",
       "headline": "Publication-appropriate headline",
       "hook": "One sentence opening leading with the surprising or useful finding",
       "pitch_angle": "2 sentences max: what happened, why surprising or useful, lifestyle/wellness hook"
