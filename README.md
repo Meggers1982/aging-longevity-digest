@@ -49,7 +49,7 @@ Can also be triggered manually via **Actions → Aging & Longevity Research Dige
 
 Large categories are split into chunks so each job processes ~60–80 journals, keeping run times under 20 minutes.
 
-The CSVs in `data/` are now the hand-maintained source of truth. The workbook `extract_journals.py` was written for (`PubMed_Journals_Categorized.xlsx`) no longer exists, so re-running that script would wipe hand-added rows — add journals by appending rows to the CSVs instead. Every row is searched with no topic filter, so a journal's entire weekly PubMed output enters the digest.
+The CSVs in `data/` are now the hand-maintained source of truth. The workbook `extract_journals.py` was written for (`PubMed_Journals_Categorized.xlsx`) no longer exists, so the script has been deleted — add journals by appending rows to the CSVs instead. Every row is searched with no topic filter, so a journal's entire weekly PubMed output enters the digest.
 
 ---
 
@@ -130,7 +130,6 @@ Add these in **Settings → Secrets and variables → Actions**:
 scripts/
   aging_longevity_digest.py      # Main pipeline: PubMed → Claude → JSON artifact
   merge_results.py               # Deploy job: merges artifacts → data/results.json
-  extract_journals.py            # Historical one-time extractor (source workbook gone; do NOT re-run, CSVs are hand-maintained)
 data/
   Seniors & Aging.csv
   Geriatrics.csv
